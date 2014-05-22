@@ -45,53 +45,8 @@ table {
 header {
 	background-image: url("http://cdn2.bigbitecreative.com/content/uploads/2013/10/hero-home.jpg");
 	background-repeat: no-repeat;
-	background-size: 2400px;
-	height: 600px;
-}
-
-#top_shown_header {
-	background-color: #FFFFFF;
-	height: 120px;
-	width: 100%;
-}
-
-#top_li {
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#top_shown_header li {
-	font-family: Lato;
-	font-weight: 300;
-	display: inline;
-	font-size: 16px;
-	position: relative;
-	padding-left: 20px;
-	padding-right: 20px;
-	top: 50px;
-	color: #595959;
-	z-index: 2;
-}
-
-a:link {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
-a:visited { 
-	color: #FFFFFF; 
-	text-decoration: none;
-}
-
-a:hover { 
-	color: #FFFFFF; 
-	text-decoration: none;
-}
-
-a:active { 
-	color: #FFFFFF; 
-	text-decoration: none;
+	height: 700px;
+	background-size: 2500px;
 }
 
 #topLine{
@@ -102,7 +57,7 @@ a:active {
 	line-height: 0%;
 	padding-left: 130px;
 	font-weight: 300;
-	padding-top: 200px;
+	padding-top: 300px;
 }
 
 #secondLine {
@@ -194,11 +149,11 @@ a:active {
 section h2 {
 	text-align: center;
 	font-family: Lato;
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: 300;
 	color: #595959;
 	margin-top: 70px;
-	margin-bottom: 70px;
+	margin-bottom: 20px;
 }
 
 hr {
@@ -209,8 +164,8 @@ hr {
 	opacity: 1;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;
-	width: 960px;
+	margin-bottom: 60px;
+	width: 50px;
 }
 
 .portfolio {
@@ -248,23 +203,7 @@ hr {
 	margin-left: auto;
 }
 
-#story_section {
-	display: inline;
-}
-
-.myStory #story_content {
-	font-family: Lato;
-	font-weight: 300;
-	text-align: justify;
-	font-size: 16px;
-	color: #595959;
-	line-height: 1.5;
-	position: relative;
-	margin-bottom: 85px;
-}
-
 .myStory img {
-	float: left;
 	width: 200px;
 	margin-right: 70px;
 	position: relative;
@@ -272,7 +211,7 @@ hr {
 
 #story_top {
 	font-family: Lato;
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: 300;
 	color: #595959;
 }
