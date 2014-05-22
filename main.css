@@ -43,10 +43,14 @@ table {
 }
 
 header {
-	background-color: #A8DBA8;
-	padding-left: 100px;
-	padding-top: 255px;
-	padding-bottom: 255px;
+	background-image: url("Images/sample_top.png");
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	
+}
+
+#top_shown_header {
+	top: 50px;
 }
 
 #topLine{
@@ -55,8 +59,10 @@ header {
 	width: 600px;
 	color: #FFFFFF;
 	line-height: 0%;
-	padding-left: 65px;
+	padding-left: 130px;
 	font-weight: 300;
+	padding-top: 200px;
+
 }
 
 #secondLine {
@@ -65,6 +71,7 @@ header {
 	width: 600px;
 	color: #FFFFFF;
 	line-height: 80%;
+	padding-left: 65px;
 }
 
 #thirdLine {
@@ -73,9 +80,10 @@ header {
 	width: 600px;
 	color: #FFFFFF;
 	text-align: right;
-	margin-left: -40px;
+	margin-left: 20px;
 	font-weight: 300;
 	line-height: 135%;
+	padding-bottom: 255px;
 }
 
 header h2 {
@@ -137,6 +145,12 @@ a:active {
 	text-decoration: none;
 }
 
+.main_content {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 section h2 {
 	text-align: center;
 	font-family: Lato;
@@ -150,13 +164,13 @@ section h2 {
 hr {
 	color: #E0E0E0;
 	background-color: #E0E0E0;
-	width: 960px;
 	height: 1px;
 	border: none;
 	opacity: 1;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 30px;
+	width: 960px;
 }
 
 .portfolio {
@@ -165,7 +179,7 @@ hr {
 
 #projectRow1 img {
 	width: 960px;
-	height: 250px;
+	height: 230px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -185,26 +199,46 @@ hr {
 	height: 250px;
 	position: relative;
 	display: inline;
-	margin: 10px;
+	margin: 8px;
 }
 
-.myStory p {
+.myStory {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#story_section {
+	display: inline;
+}
+
+.myStory #story_content {
 	font-family: Lato;
 	font-weight: 300;
 	text-align: justify;
-	width: 960px;
 	font-size: 16px;
 	color: #595959;
 	line-height: 1.5;
 	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 70px;
+	margin-bottom: 85px;
+}
 
+.myStory img {
+	float: left;
+	width: 380px;
+	margin-right: 70px;
+	position: relative;
+}
+
+#story_top {
+	font-family: Lato;
+	font-size: 50px;
+	font-weight: 300;
+	color: #595959;
 }
 
 .quoteBar {
-	background-color: #A8DBA8;
+	background-color: #3B8686;
 	height: 120px;
 }
 
