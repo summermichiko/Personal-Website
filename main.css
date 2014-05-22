@@ -61,7 +61,7 @@ header {
 	text-align: center;
 }
 
-#secondLine{
+#secondLine {
 	font-family: Lato;
 	font-size: 30px;
 	width: 600px;
@@ -71,7 +71,37 @@ header {
 	margin-left: auto;
 	font-weight: 300;
 	line-height: 0%;
-	
+}
+
+#thirdLine {
+	font-family: Lato;
+	font-size: 25px;
+	width: 150px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 300;
+	border: 1px solid white;
+	padding: 15px;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+
+.v {
+	font-family: Lato;
+	font-size: 25px;
+	width: 50px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 300;
+	line-height: 50%;
+}
+
+#topv {
+	margin-top: 20px;
 }
 
 .menuBar {
