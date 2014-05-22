@@ -88,22 +88,6 @@ header {
 	margin-top: 40px;
 }
 
-.v {
-	font-family: Lato;
-	font-size: 25px;
-	width: 50px;
-	color: #FFFFFF;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	font-weight: 300;
-	line-height: 50%;
-}
-
-#topv {
-	margin-top: 20px;
-}
-
 .menuBar {
 	background-color: #FFFFFF;
 	color: #595959;
@@ -194,6 +178,19 @@ hr {
 
 .portfolio {
 	margin-bottom: 70px;
+}
+
+.portpics {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.portpics img {
+	width: 300px;
+	height: 300px;
+	padding: 5px;
 }
 
 #projectRow1 img {
