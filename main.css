@@ -49,36 +49,29 @@ header {
 	background-size: 2500px;
 }
 
-#topLine{
+#topLine {
+	font-family: Josefin Slab;
+	font-size: 70px;
+	width: 960px;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 250px;
+	line-height: 100%;
+	text-align: center;
+}
+
+#secondLine{
 	font-family: Lato;
 	font-size: 30px;
 	width: 600px;
 	color: #FFFFFF;
-	padding-left: 104px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 	font-weight: 300;
 	line-height: 0%;
-	padding-top: 300px;
-}
-
-#secondLine {
-	font-family: Lato;
-	font-size: 70px;
-	width: 630px;
-	color: #FFFFFF;
-	line-height: 90%;
-	padding-left: 65px;
-}
-
-#thirdLine {
-	font-family: Lato;
-	font-size: 30px;
-	width: 600px;
-	color: #FFFFFF;
-	text-align: right;
-	margin-left: 50px;
-	font-weight: 300;
-	line-height: 55%;
-	padding-bottom: 255px;
+	
 }
 
 .menuBar {
@@ -96,18 +89,18 @@ header {
 }
 
 .menuBar p {
-	font-family: Lato;
+	font-family: Josefin Slab;
 	font-weight: 300;
 	display: inline;
 	position: relative;
 	float: left;
 	font-size: 30px;
 	top: 14px;
-	margin-left: 212px;
+	margin-left: 200px;
 }
 
 .menuBar ul {
-	margin-right: 162px;
+	margin-right: 150px;
 }
 
 .menuBar li {
