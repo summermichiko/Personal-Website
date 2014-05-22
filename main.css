@@ -46,24 +46,20 @@ header {
 	background-image: url("Images/sample_top.png");
 	background-repeat: no-repeat;
 	background-size: 1500px;
+	height: 600px;
 }
 
 #top_shown_header {
 	background-color: #FFFFFF;
 	opacity: 0.5;
-	height: 60px;
+	height: 120px;
 	width: 100%;
 }
 
-#top_shown_header p {
-	font-family: Pacifico;
-	display: inline;
-	position: relative;
-	float: left;
-	font-size: 30px;
-	top: 14px;
-	margin-left: 50px;
-	z-index: 2;
+#top_li {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #top_shown_header li {
@@ -72,10 +68,10 @@ header {
 	display: inline;
 	font-size: 16px;
 	position: relative;
-	float: right;
-	margin-right: 50px;
-	top: 20px;
-	color: #FFFFFF;
+	padding-left: 20px;
+	padding-right: 20px;
+	top: 50px;
+	color: #595959;
 	z-index: 2;
 }
 
@@ -108,7 +104,6 @@ a:active {
 	padding-left: 130px;
 	font-weight: 300;
 	padding-top: 200px;
-
 }
 
 #secondLine {
