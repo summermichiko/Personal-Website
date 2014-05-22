@@ -226,15 +226,20 @@ hr {
 
 .myStory img {
 	width: 200px;
-	margin-right: 70px;
 	position: relative;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
 }
 
-#story_top {
+.myStory p {
 	font-family: Lato;
-	font-size: 30px;
 	font-weight: 300;
 	color: #595959;
+	font-size: 18px;
+	line-height: 2;
+	text-align: justify;
 }
 
 .contactChoices {
