@@ -43,15 +43,14 @@ table {
 }
 
 header {
-	background-image: url("Images/sample_top.png");
+	background-image: url("http://cdn2.bigbitecreative.com/content/uploads/2013/10/hero-home.jpg");
 	background-repeat: no-repeat;
-	background-size: 1500px;
+	background-size: 2400px;
 	height: 600px;
 }
 
 #top_shown_header {
 	background-color: #FFFFFF;
-	opacity: 0.5;
 	height: 120px;
 	width: 100%;
 }
@@ -266,7 +265,7 @@ hr {
 
 .myStory img {
 	float: left;
-	width: 380px;
+	width: 200px;
 	margin-right: 70px;
 	position: relative;
 }
@@ -276,11 +275,6 @@ hr {
 	font-size: 50px;
 	font-weight: 300;
 	color: #595959;
-}
-
-.quoteBar {
-	background-color: #3B8686;
-	height: 120px;
 }
 
 .contactChoices {
