@@ -182,15 +182,219 @@ hr {
 
 .portpics {
 	width: 960px;
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
+	position: relative;
 }
 
-.portpics img {
+.title {
+	font-family: Lato;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	font-weight: 100;
+	font-size: 32px;
+}
+
+.launchbutton {
+	color: #FFFFFF;
+	font-family: Lato;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 15px;
+	border: 1px solid white;
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#api_hack {
+	width: 370px;
+	height: 300px;
+	background: url(Images/api_hack.png) no-repeat;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+#text4 { 
+	width: 370px; 
+	height: 300px; 
+	background: #292929; 
+	opacity: 0; 
+}
+
+#api_hack:hover #text4 { 
+	opacity: 0.85; 
+	text-align: center; 
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: Lato; 
+}
+
+#branch {
 	width: 300px;
 	height: 300px;
-	padding: 5px;
+	background: url(Images/small_business_landing_page.png) no-repeat;
+	background-position: -300px 0px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+#text6 { 
+	width: 300px; 
+	height: 300px; 
+	background: #292929; 
+	opacity: 0; 
+}
+
+#branch:hover #text6 { 
+	opacity: 0.85;
+	text-align: center; 
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: Lato; 
+}
+
+#thinkful {
+	width: 540px;
+	height: 300px;
+	background: url(Images/thinkful_mentor_training_guide.png) no-repeat;
+	background-position: -180px -40px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+#text2 { 
+	width: 540px; 
+	height: 300px; 
+	background: #292929; 
+	opacity: 0; 
+}
+
+#thinkful:hover #text2 { 
+	opacity: 0.85; 
+	text-align: center; 
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: Lato; 
+}
+
+#hot_cold {
+	width: 370px;
+	height: 300px;
+	background: url(Images/hot_cold.png) no-repeat;
+	background-position: -70px -50px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+#text1 { 
+	width: 370px; 
+	height: 300px; 
+	background: #292929; 
+	opacity: 0; 
+}
+
+#hot_cold:hover #text1 { 
+	opacity: 0.85;
+	text-align: center; 
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: Lato; 
+}
+
+#fizz_buzz {
+	width: 300px;
+	height: 300px;
+	background: url(Images/fizz_buzz.png) no-repeat;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+#text7 { 
+	width: 300px; 
+	height: 300px; 
+	background: #292929; 
+	opacity: 0; 
+}
+
+#fizz_buzz:hover #text7 { 
+	opacity: 0.85; 
+	text-align: center; 
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: Lato; 
+}
+
+#shopping_list {
+	width: 540px;
+	height: 300px;
+	background: url(Images/shopping_list.png) no-repeat;
+	background-position: 0px -30px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+#text3 { 
+	width: 540px; 
+	height: 300px; 
+	background: #292929; 
+	opacity: 0;
+}
+
+#shopping_list:hover #text3 { 
+	opacity: 0.85;
+	text-align: center; 
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: Lato; 
+}
+
+#kamaaina_quiz {
+	width: 300px;
+	height: 300px;
+	background: url(Images/kamaaina_quiz.png) no-repeat;
+	background-position: -250px 100px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+#text5 { 
+	width: 300px; 
+	height: 300px; 
+	background: #292929; 
+	opacity: 0;
+}
+
+#kamaaina_quiz:hover #text5 { 
+	opacity: 0.85;
+	text-align: center; 
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: Lato; 
 }
 
 #projectRow1 img {
