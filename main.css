@@ -73,21 +73,6 @@ header {
 	line-height: 0%;
 }
 
-#thirdLine {
-	font-family: Lato;
-	font-size: 25px;
-	width: 150px;
-	color: #FFFFFF;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	font-weight: 300;
-	border: 1px solid white;
-	padding: 15px;
-	border-radius: 5px;
-	margin-top: 40px;
-}
-
 .menuBar {
 	background-color: #FFFFFF;
 	color: #595959;
@@ -238,21 +223,48 @@ hr {
 	font-size: 32px;
 }
 
+#thirdLine {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+
+#thirdLine a {
+	font-family: Lato;
+	font-size: 25px;
+	width: 150px;
+	color: #FFFFFF;
+	font-weight: 300;
+	border: 1px solid white;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#thirdLine a:hover {
+	background-color: #FFFFFF;
+	color:#595959;
+}
+
 .launchbutton {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.launchbutton a {
+	width: 140px;
 	color: #FFFFFF;
 	font-family: Lato;
 	font-weight: 600;
 	font-size: 18px;
 	padding: 15px;
 	border: 1px solid white;
-	width: 120px;
-	margin-left: auto;
-	margin-right: auto;
+	border-radius: 5px;
 }
 
-.launchbutton:hover {
-	color: #595959;
+.launchbutton a:hover {
 	background-color: #FFFFFF;
+	color: #595959;
 }
 
 #hot_cold {
