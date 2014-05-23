@@ -73,6 +73,24 @@ header {
 	line-height: 0%;
 }
 
+#thirdLine {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+
+#thirdLine a {
+	font-family: Lato;
+	font-size: 25px;
+	width: 150px;
+	color: #FFFFFF;
+	font-weight: 300;
+	border: 1px solid white;
+	padding: 15px;
+	border-radius: 5px;
+}
+
 .menuBar {
 	background-color: #FFFFFF;
 	color: #595959;
@@ -113,42 +131,22 @@ header {
 	top: 20px;
 }
 
-.menuBar a:link {
+.hoverlink a:link {
 	color: #595959;
 	text-decoration: none;
 }
 
-.menuBar a:visited { 
+.hoverlink a:visited { 
 	color: #595959; 
 	text-decoration: none;
 }
 
-.menuBar a:hover { 
+.hoverlink a:hover { 
 	color: #595959; 
 	text-decoration: none;
 }
 
-.menuBar a:active { 
-	color: #595959; 
-	text-decoration: none;
-}
-
-.launchbutton a:link {
-	color: #595959;
-	text-decoration: none;
-}
-
-.launchbutton a:visited { 
-	color: #595959; 
-	text-decoration: none;
-}
-
-.launchbutton a:hover { 
-	color: #595959; 
-	text-decoration: none;
-}
-
-.launchbutton a:active { 
+.hoverlink a:active { 
 	color: #595959; 
 	text-decoration: none;
 }
@@ -173,12 +171,6 @@ header {
 	text-decoration: none;
 }
 
-.main_content {
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 section h2 {
 	text-align: center;
 	font-family: Lato;
@@ -201,8 +193,12 @@ hr {
 	width: 50px;
 }
 
-.portfolio {
+.contentsec {
 	margin-bottom: 70px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 }
 
 .portpics {
@@ -223,6 +219,20 @@ hr {
 	font-size: 32px;
 }
 
+.launchbutton {
+	color: #FFFFFF;
+	font-family: Lato;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 15px;
+	border: 1px solid white;
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+
 #thirdLine {
 	text-align: center;
 	margin-right: auto;
@@ -241,30 +251,14 @@ hr {
 	border-radius: 5px;
 }
 
+.launchbutton:hover {
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+
 #thirdLine a:hover {
 	background-color: #FFFFFF;
 	color:#595959;
-}
-
-.launchbutton {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.launchbutton a {
-	width: 140px;
-	color: #FFFFFF;
-	font-family: Lato;
-	font-weight: 600;
-	font-size: 18px;
-	padding: 15px;
-	border: 1px solid white;
-	border-radius: 5px;
-}
-
-.launchbutton a:hover {
-	background-color: #FFFFFF;
-	color: #595959;
 }
 
 #hot_cold {
@@ -278,7 +272,7 @@ hr {
 	margin-bottom: 15px;
 }
 
-#text1 { 
+#text1, #text4 { 
 	width: 370px; 
 	height: 300px; 
 	background: #292929; 
@@ -305,7 +299,7 @@ hr {
 	margin-bottom: 15px;
 }
 
-#text2 { 
+#text2, #text3 { 
 	width: 540px; 
 	height: 300px; 
 	background: #292929; 
@@ -332,13 +326,6 @@ hr {
 	margin-bottom: 15px;
 }
 
-#text3 { 
-	width: 540px; 
-	height: 300px; 
-	background: #292929; 
-	opacity: 0;
-}
-
 #shopping_list:hover #text3 { 
 	opacity: 0.85;
 	text-align: center; 
@@ -356,13 +343,6 @@ hr {
 	margin-left: 5px;
 	margin-right: 15px;
 	margin-bottom: 15px;
-}
-
-#text4 { 
-	width: 370px; 
-	height: 300px; 
-	background: #292929; 
-	opacity: 0; 
 }
 
 #api_hack:hover #text4 { 
@@ -385,7 +365,7 @@ hr {
 	margin-bottom: 15px;
 }
 
-#text5 { 
+#text5, #text6, #text7 { 
 	width: 300px; 
 	height: 300px; 
 	background: #292929; 
@@ -412,13 +392,6 @@ hr {
 	margin-bottom: 15px;
 }
 
-#text6 { 
-	width: 300px; 
-	height: 300px; 
-	background: #292929; 
-	opacity: 0; 
-}
-
 #branch:hover #text6 { 
 	opacity: 0.85;
 	text-align: center; 
@@ -437,13 +410,6 @@ hr {
 	margin-left: 5px;
 	margin-right: 15px;
 	margin-bottom: 15px;
-}
-
-#text7 { 
-	width: 300px; 
-	height: 300px; 
-	background: #292929; 
-	opacity: 0; 
 }
 
 #fizz_buzz:hover #text7 { 
@@ -466,25 +432,6 @@ hr {
 	margin-bottom: 10px;
 }
 
-.two {
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-}
-
-.two img {
-	width: 470px;
-	height: 250px;
-	position: relative;
-	display: inline;
-	margin: 8px;
-}
-
-.myStory {
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-}
 
 .myStory img {
 	width: 200px;
@@ -502,14 +449,6 @@ hr {
 	font-size: 18px;
 	line-height: 2;
 	text-align: justify;
-}
-
-.contactChoices {
-	text-align: center;
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 70px;
 }
 
 .contactChoices li {
