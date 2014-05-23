@@ -9,15 +9,13 @@ $(document).ready(function() {
          	$(".menuBar").fadeOut();
         }
     });
-
     $(function() {
     	$("a").bind('click',function(event){
     		event.preventDefault();
         	var anchor = $(this);
         	$('html, body').stop().animate({
-            	scrollTop: $(anchor.attr('href')).offset().top -110
+            	scrollTop: $(anchor.attr('href')).offset().top -85
         	}, 700);
     	});
 	});
-
 });
