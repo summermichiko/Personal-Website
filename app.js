@@ -11,27 +11,7 @@ $(document).ready(function() {
     });
 
     $(function() {
-    	$("#first_li a").bind('click',function(event){
-    		event.preventDefault();
-        	var anchor = $(this);
-        	$('html, body').stop().animate({
-            	scrollTop: $(anchor.attr('href')).offset().top -110
-        	}, 700);
-    	});
-	});
-
-	$(function() {
-    	$(".menuBar a").bind('click',function(event){
-    		event.preventDefault();
-        	var anchor = $(this);
-        	$('html, body').stop().animate({
-            	scrollTop: $(anchor.attr('href')).offset().top -110
-        	}, 700);
-    	});
-	});
-
-	$(function() {
-    	$("#thirdLine a").bind('click',function(event){
+    	$("a").bind('click',function(event){
     		event.preventDefault();
         	var anchor = $(this);
         	$('html, body').stop().animate({
