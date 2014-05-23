@@ -215,19 +215,19 @@ hr {
 	height: 300px;
 	background: url(Images/api_hack.png) no-repeat;
 	display: inline-block;
-	margin-left: 15px;
-	margin-right: 5px;
+	margin-left: 5px;
+	margin-right: 15px;
 	margin-bottom: 15px;
 }
 
-#text1 { 
+#text4 { 
 	width: 370px; 
 	height: 300px; 
 	background: #292929; 
 	opacity: 0; 
 }
 
-#api_hack:hover #text1 { 
+#api_hack:hover #text4 { 
 	opacity: 0.85; 
 	text-align: center; 
 	color: #FFFFFF; 
@@ -237,25 +237,24 @@ hr {
 }
 
 #branch {
-	width: 540px;
+	width: 300px;
 	height: 300px;
 	background: url(Images/small_business_landing_page.png) no-repeat;
-	background-position: -100px 0px;
+	background-position: -300px 0px;
 	display: inline-block;
 	margin-left: 5px;
-	margin-right: 15px;
+	margin-right: 5px;
 	margin-bottom: 15px;
 }
 
-#text2 { 
-	width: 540px; 
+#text6 { 
+	width: 300px; 
 	height: 300px; 
 	background: #292929; 
 	opacity: 0; 
-	
 }
 
-#branch:hover #text2 { 
+#branch:hover #text6 { 
 	opacity: 0.85;
 	text-align: center; 
 	color: #FFFFFF; 
@@ -270,19 +269,19 @@ hr {
 	background: url(Images/thinkful_mentor_training_guide.png) no-repeat;
 	background-position: -180px -40px;
 	display: inline-block;
-	margin-left: 15px;
-	margin-right: 5px;
+	margin-left: 5px;
+	margin-right: 15px;
 	margin-bottom: 15px;
 }
 
-#text3 { 
+#text2 { 
 	width: 540px; 
 	height: 300px; 
 	background: #292929; 
 	opacity: 0; 
 }
 
-#thinkful:hover #text3 { 
+#thinkful:hover #text2 { 
 	opacity: 0.85; 
 	text-align: center; 
 	color: #FFFFFF; 
@@ -297,19 +296,19 @@ hr {
 	background: url(Images/hot_cold.png) no-repeat;
 	background-position: -70px -50px;
 	display: inline-block;
-	margin-left: 5px;
-	margin-right: 15px;
+	margin-left: 15px;
+	margin-right: 5px;
 	margin-bottom: 15px;
 }
 
-#text4 { 
+#text1 { 
 	width: 370px; 
 	height: 300px; 
 	background: #292929; 
 	opacity: 0; 
 }
 
-#hot_cold:hover #text4 { 
+#hot_cold:hover #text1 { 
 	opacity: 0.85;
 	text-align: center; 
 	color: #FFFFFF; 
@@ -323,19 +322,19 @@ hr {
 	height: 300px;
 	background: url(Images/fizz_buzz.png) no-repeat;
 	display: inline-block;
-	margin-left: 15px;
-	margin-right: 5px;
+	margin-left: 5px;
+	margin-right: 15px;
 	margin-bottom: 15px;
 }
 
-#text5 { 
+#text7 { 
 	width: 300px; 
 	height: 300px; 
 	background: #292929; 
 	opacity: 0; 
 }
 
-#fizz_buzz:hover #text5 { 
+#fizz_buzz:hover #text7 { 
 	opacity: 0.85; 
 	text-align: center; 
 	color: #FFFFFF; 
@@ -345,23 +344,24 @@ hr {
 }
 
 #shopping_list {
-	width: 300px;
+	width: 540px;
 	height: 300px;
 	background: url(Images/shopping_list.png) no-repeat;
+	background-position: 0px -30px;
 	display: inline-block;
-	margin-left: 5px;
+	margin-left: 15px;
 	margin-right: 5px;
 	margin-bottom: 15px;
 }
 
-#text6 { 
-	width: 300px; 
+#text3 { 
+	width: 540px; 
 	height: 300px; 
 	background: #292929; 
 	opacity: 0;
 }
 
-#shopping_list:hover #text6 { 
+#shopping_list:hover #text3 { 
 	opacity: 0.85;
 	text-align: center; 
 	color: #FFFFFF; 
@@ -374,20 +374,21 @@ hr {
 	width: 300px;
 	height: 300px;
 	background: url(Images/kamaaina_quiz.png) no-repeat;
+	background-position: -165px 0px;
 	display: inline-block;
-	margin-left: 5px;
+	margin-left: 15px;
 	margin-right: 5px;
 	margin-bottom: 15px;
 }
 
-#text7 { 
+#text5 { 
 	width: 300px; 
 	height: 300px; 
 	background: #292929; 
 	opacity: 0;
 }
 
-#kamaaina_quiz:hover #text7 { 
+#kamaaina_quiz:hover #text5 { 
 	opacity: 0.85;
 	text-align: center; 
 	color: #FFFFFF; 
