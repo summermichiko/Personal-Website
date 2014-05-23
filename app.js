@@ -11,14 +11,17 @@ $(document).ready(function() {
     });
 
     $(function() {
-    	$('#first_li li').bind('click', function(event){
+    	$("#first_li li").bind('click',function(event){
     		event.preventDefault();
         	var anchor = $(this);
         	$('html, body').stop().animate({
             	scrollTop: $(anchor.attr('href')).offset().top
-        	}, 500);
+        	}, 700);
     	});
 	});
+
+	//click learn more - scroll to my story
+	//hover over project, have overlay pop up with name, short description, and open new tab
 
 
 });
