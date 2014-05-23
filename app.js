@@ -11,17 +11,33 @@ $(document).ready(function() {
     });
 
     $(function() {
-    	$("#first_li li").bind('click',function(event){
+    	$("#first_li a").bind('click',function(event){
     		event.preventDefault();
         	var anchor = $(this);
         	$('html, body').stop().animate({
-            	scrollTop: $(anchor.attr('href')).offset().top
+            	scrollTop: $(anchor.attr('href')).offset().top -110
         	}, 700);
     	});
 	});
 
-	//click learn more - scroll to my story
-	//hover over project, have overlay pop up with name, short description, and open new tab
+	$(function() {
+    	$(".menuBar a").bind('click',function(event){
+    		event.preventDefault();
+        	var anchor = $(this);
+        	$('html, body').stop().animate({
+            	scrollTop: $(anchor.attr('href')).offset().top -110
+        	}, 700);
+    	});
+	});
 
+	$(function() {
+    	$("#thirdLine a").bind('click',function(event){
+    		event.preventDefault();
+        	var anchor = $(this);
+        	$('html, body').stop().animate({
+            	scrollTop: $(anchor.attr('href')).offset().top -110
+        	}, 700);
+    	});
+	});
 
 });

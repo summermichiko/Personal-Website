@@ -168,6 +168,26 @@ header {
 	text-decoration: none;
 }
 
+#thirdLine a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#thirdLine a:visited { 
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#thirdLine a:hover { 
+	color: #FFFFFF; 
+	text-decoration: none;
+}
+
+#thirdLine a:active { 
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 .main_content {
 	width: 960px;
 	margin-left: auto;
@@ -221,7 +241,7 @@ hr {
 .launchbutton {
 	color: #FFFFFF;
 	font-family: Lato;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 18px;
 	padding: 15px;
 	border: 1px solid white;
@@ -235,51 +255,25 @@ hr {
 	background-color: #FFFFFF;
 }
 
-#api_hack {
+#hot_cold {
 	width: 370px;
 	height: 300px;
-	background: url(Images/api_hack.png) no-repeat;
+	background: url(Images/hot_cold.png) no-repeat;
+	background-position: -70px -50px;
 	display: inline-block;
-	margin-left: 5px;
-	margin-right: 15px;
+	margin-left: 15px;
+	margin-right: 5px;
 	margin-bottom: 15px;
 }
 
-#text4 { 
+#text1 { 
 	width: 370px; 
 	height: 300px; 
 	background: #292929; 
 	opacity: 0; 
 }
 
-#api_hack:hover #text4 { 
-	opacity: 0.85; 
-	text-align: center; 
-	color: #FFFFFF; 
-	font-size: 20px; 
-	font-weight: 700; 
-	font-family: Lato; 
-}
-
-#branch {
-	width: 300px;
-	height: 300px;
-	background: url(Images/small_business_landing_page.png) no-repeat;
-	background-position: -300px 0px;
-	display: inline-block;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom: 15px;
-}
-
-#text6 { 
-	width: 300px; 
-	height: 300px; 
-	background: #292929; 
-	opacity: 0; 
-}
-
-#branch:hover #text6 { 
+#hot_cold:hover #text1 { 
 	opacity: 0.85;
 	text-align: center; 
 	color: #FFFFFF; 
@@ -315,59 +309,6 @@ hr {
 	font-family: Lato; 
 }
 
-#hot_cold {
-	width: 370px;
-	height: 300px;
-	background: url(Images/hot_cold.png) no-repeat;
-	background-position: -70px -50px;
-	display: inline-block;
-	margin-left: 15px;
-	margin-right: 5px;
-	margin-bottom: 15px;
-}
-
-#text1 { 
-	width: 370px; 
-	height: 300px; 
-	background: #292929; 
-	opacity: 0; 
-}
-
-#hot_cold:hover #text1 { 
-	opacity: 0.85;
-	text-align: center; 
-	color: #FFFFFF; 
-	font-size: 20px; 
-	font-weight: 700; 
-	font-family: Lato; 
-}
-
-#fizz_buzz {
-	width: 300px;
-	height: 300px;
-	background: url(Images/fizz_buzz.png) no-repeat;
-	display: inline-block;
-	margin-left: 5px;
-	margin-right: 15px;
-	margin-bottom: 15px;
-}
-
-#text7 { 
-	width: 300px; 
-	height: 300px; 
-	background: #292929; 
-	opacity: 0; 
-}
-
-#fizz_buzz:hover #text7 { 
-	opacity: 0.85; 
-	text-align: center; 
-	color: #FFFFFF; 
-	font-size: 20px; 
-	font-weight: 700; 
-	font-family: Lato; 
-}
-
 #shopping_list {
 	width: 540px;
 	height: 300px;
@@ -395,6 +336,32 @@ hr {
 	font-family: Lato; 
 }
 
+#api_hack {
+	width: 370px;
+	height: 300px;
+	background: url(Images/api_hack.png) no-repeat;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+#text4 { 
+	width: 370px; 
+	height: 300px; 
+	background: #292929; 
+	opacity: 0; 
+}
+
+#api_hack:hover #text4 { 
+	opacity: 0.85; 
+	text-align: center; 
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: Lato; 
+}
+
 #kamaaina_quiz {
 	width: 300px;
 	height: 300px;
@@ -415,6 +382,60 @@ hr {
 
 #kamaaina_quiz:hover #text5 { 
 	opacity: 0.85;
+	text-align: center; 
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: Lato; 
+}
+
+#branch {
+	width: 300px;
+	height: 300px;
+	background: url(Images/small_business_landing_page.png) no-repeat;
+	background-position: -300px 0px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+#text6 { 
+	width: 300px; 
+	height: 300px; 
+	background: #292929; 
+	opacity: 0; 
+}
+
+#branch:hover #text6 { 
+	opacity: 0.85;
+	text-align: center; 
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: Lato; 
+}
+
+
+#fizz_buzz {
+	width: 300px;
+	height: 300px;
+	background: url(Images/fizz_buzz.png) no-repeat;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+#text7 { 
+	width: 300px; 
+	height: 300px; 
+	background: #292929; 
+	opacity: 0; 
+}
+
+#fizz_buzz:hover #text7 { 
+	opacity: 0.85; 
 	text-align: center; 
 	color: #FFFFFF; 
 	font-size: 20px; 
