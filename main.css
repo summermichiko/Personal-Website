@@ -52,7 +52,7 @@ header {
 #topLine {
 	font-family: Josefin Slab;
 	font-size: 70px;
-	width: 960px;
+	width: 1080px;
 	color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
@@ -113,11 +113,11 @@ header {
 	float: left;
 	font-size: 30px;
 	top: 14px;
-	margin-left: 200px;
+	margin-left: 10px;
 }
 
 .menuBar ul {
-	margin-right: 150px;
+	margin-right: 80px;
 }
 
 .menuBar li {
@@ -171,26 +171,6 @@ header {
 	text-decoration: none;
 }
 
-.launcbutton a:link {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
-.launchbutton a:visited { 
-	color: #FFFFFF; 
-	text-decoration: none;
-}
-
-.launchbutton a:hover { 
-	color: #595959; 
-	text-decoration: none;
-}
-
-.launchbutton a:active { 
-	color: #FFFFFF; 
-	text-decoration: none;
-}
-
 section h2 {
 	text-align: center;
 	font-family: Lato;
@@ -211,51 +191,6 @@ hr {
 	margin-right: auto;
 	margin-bottom: 60px;
 	width: 50px;
-}
-
-.contentsec {
-	margin-bottom: 70px;
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-}
-
-.portpics {
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	position: relative;
-}
-
-.title {
-	font-family: Lato;
-	color: #FFFFFF;
-	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 30px;
-	font-weight: 100;
-	font-size: 32px;
-}
-
-.launchbutton input {
-	color: #FFFFFF;
-	font-family: Lato;
-	font-weight: 600;
-	font-size: 18px;
-	padding: 15px;
-	border: 1px solid white;
-	width: 120px;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 5px;
-	background-color: transparent;
-}
-
-.launchbutton input:hover {
-	color: #595959;
-	background-color: #FFFFFF;
 }
 
 #thirdLine {
@@ -281,177 +216,45 @@ hr {
 	color:#595959;
 }
 
-#hot_cold {
-	width: 370px;
-	height: 300px;
-	background: url(Images/hot_cold.png) no-repeat;
-	background-position: -70px -50px;
-	display: inline-block;
-	margin-left: 15px;
-	margin-right: 5px;
-	margin-bottom: 15px;
-}
-
-#text1, #text4 { 
-	width: 370px; 
-	height: 300px; 
-	background: #292929; 
-	opacity: 0; 
-}
-
-#hot_cold:hover #text1 { 
-	opacity: 0.85;
-	text-align: center; 
-	color: #FFFFFF; 
-	font-size: 20px; 
-	font-weight: 700; 
-	font-family: Lato; 
-}
-
-#thinkful {
-	width: 540px;
-	height: 300px;
-	background: url(Images/thinkful_mentor_training_guide.png) no-repeat;
-	background-position: -180px -40px;
-	display: inline-block;
-	margin-left: 5px;
-	margin-right: 15px;
-	margin-bottom: 15px;
-}
-
-#text2, #text3 { 
-	width: 540px; 
-	height: 300px; 
-	background: #292929; 
-	opacity: 0; 
-}
-
-#thinkful:hover #text2 { 
-	opacity: 0.85; 
-	text-align: center; 
-	color: #FFFFFF; 
-	font-size: 20px; 
-	font-weight: 700; 
-	font-family: Lato; 
-}
-
-#shopping_list {
-	width: 540px;
-	height: 300px;
-	background: url(Images/shopping_list.png) no-repeat;
-	background-position: 0px -30px;
-	display: inline-block;
-	margin-left: 15px;
-	margin-right: 5px;
-	margin-bottom: 15px;
-}
-
-#shopping_list:hover #text3 { 
-	opacity: 0.85;
-	text-align: center; 
-	color: #FFFFFF; 
-	font-size: 20px; 
-	font-weight: 700; 
-	font-family: Lato; 
-}
-
-#api_hack {
-	width: 370px;
-	height: 300px;
-	background: url(Images/api_hack.png) no-repeat;
-	display: inline-block;
-	margin-left: 5px;
-	margin-right: 15px;
-	margin-bottom: 15px;
-}
-
-#api_hack:hover #text4 { 
-	opacity: 0.85; 
-	text-align: center; 
-	color: #FFFFFF; 
-	font-size: 20px; 
-	font-weight: 700; 
-	font-family: Lato; 
-}
-
-#kamaaina_quiz {
-	width: 300px;
-	height: 300px;
-	background: url(Images/kamaaina_quiz.png) no-repeat;
-	background-position: -165px 0px;
-	display: inline-block;
-	margin-left: 15px;
-	margin-right: 5px;
-	margin-bottom: 15px;
-}
-
-#text5, #text6, #text7 { 
-	width: 300px; 
-	height: 300px; 
-	background: #292929; 
-	opacity: 0;
-}
-
-#kamaaina_quiz:hover #text5 { 
-	opacity: 0.85;
-	text-align: center; 
-	color: #FFFFFF; 
-	font-size: 20px; 
-	font-weight: 700; 
-	font-family: Lato; 
-}
-
-#branch {
-	width: 300px;
-	height: 300px;
-	background: url(Images/small_business_landing_page.png) no-repeat;
-	background-position: -300px 0px;
-	display: inline-block;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom: 15px;
-}
-
-#branch:hover #text6 { 
-	opacity: 0.85;
-	text-align: center; 
-	color: #FFFFFF; 
-	font-size: 20px; 
-	font-weight: 700; 
-	font-family: Lato; 
-}
-
-
-#fizz_buzz {
-	width: 300px;
-	height: 300px;
-	background: url(Images/fizz_buzz.png) no-repeat;
-	display: inline-block;
-	margin-left: 5px;
-	margin-right: 15px;
-	margin-bottom: 15px;
-}
-
-#fizz_buzz:hover #text7 { 
-	opacity: 0.85; 
-	text-align: center; 
-	color: #FFFFFF; 
-	font-size: 20px; 
-	font-weight: 700; 
-	font-family: Lato; 
-}
-
-#projectRow1 img {
-	width: 960px;
-	height: 230px;
+.contentsec {
+	margin-bottom: 70px;
+	width: 1080px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
-	position: relative;
-	display: block;
-	margin-bottom: 10px;
 }
 
+.laptop img {
+	width: 320px;
+	height: auto;
+}
+
+#row1 img {
+	display: inline;
+	position: relative;
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+#row2 img {
+	display: inline;
+	position: relative;
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+
+#row3 img {
+	display: inline;
+	position: relative;
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+}
 
 .myStory img {
 	width: 200px;
@@ -471,6 +274,11 @@ hr {
 	text-align: justify;
 }
 
+.contact {
+	position: relative;
+	display: block;
+}
+
 .contactChoices li {
 	display: inline;
 }
@@ -483,7 +291,12 @@ hr {
 	background-color: #595959;
 	border-radius: 5px;
 }
- 
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
