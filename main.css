@@ -113,11 +113,11 @@ header {
 	float: left;
 	font-size: 30px;
 	top: 14px;
-	margin-left: 10px;
+	margin-left: 110px;
 }
 
 .menuBar ul {
-	margin-right: 80px;
+	margin-right: 60px;
 }
 
 .menuBar li {
@@ -225,7 +225,7 @@ hr {
 }
 
 .laptop img {
-	width: 320px;
+	width: 360px;
 	height: auto;
 }
 
@@ -233,27 +233,20 @@ hr {
 	display: inline;
 	position: relative;
 	float: left;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 100px;
 }
 
 #row2 img {
 	display: inline;
 	position: relative;
 	float: left;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 100px;
 }
-
 
 #row3 img {
 	display: inline;
 	position: relative;
 	float: left;
-	padding-right: 20px;
-	padding-left: 20px;
 }
 
 .myStory img {
