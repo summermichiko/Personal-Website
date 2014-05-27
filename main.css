@@ -42,17 +42,30 @@ table {
 	border-spacing: 0;
 }
 
+@media screen and (max-width: 40em) {
+	body {
+		font-size: 100%;
+	}
+}
+
+@media screen and (max-width: 30em) {
+	body {
+		font-size: 80%;
+	}
+}	
+
 header {
 	background-image: url("Images/summerhero.png");
 	background-repeat: no-repeat;
 	height: 720px;
-	background-size: 1450px;
+	width: 100%;
+	background-size: 100%;
 }
 
 #topLine {
 	font-family: Josefin Slab;
-	font-size: 70px;
-	width: 1080px;
+	font-size: 4.375em;
+	width: 74.48275862068966%;
 	color: #595959;
 	margin-left: auto;
 	margin-right: auto;
@@ -62,8 +75,8 @@ header {
 
 #secondLine {
 	font-family: Lato;
-	font-size: 30px;
-	width: 600px;
+	font-size: 1.875em;
+	width: 41.379310344827586%;
 	color: #595959;
 	text-align: center;
 	margin-right: auto;
@@ -105,23 +118,23 @@ header {
 	display: inline;
 	position: relative;
 	float: left;
-	font-size: 30px;
-	top: 14px;
-	margin-left: 110px;
+	font-size: 1.875em;
+	margin-top: 14px;
+	margin-left: 7.586206896551724%;
 }
 
 .menuBar ul {
-	margin-right: 60px;
+	margin-right: 4.1379310344827586%;
 }
 
 .menuBar li {
 	font-family: Lato;
 	font-weight: 300;
 	display: inline;
-	font-size: 16px;
+	font-size: 1em;
 	position: relative;
 	float: right;
-	margin-right: 50px;
+	margin-right: 3.4482758620689655%;
 	top: 20px;
 }
 
@@ -184,45 +197,28 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 60px;
-	width: 50px;
+	width: 3.4482758620689655%;
 }
 
 .contentsec {
 	margin-bottom: 70px;
-	width: 1080px;
+	width: 74.48275862068966%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 }
 
 .laptop img {
-	width: 350px;
-	height: auto;
-}
-
-#row1 img {
-	display: inline;
-	position: relative;
-	float: left;
-	padding-bottom: 10px;
-}
-
-#row2 img {
-	display: inline;
-	position: relative;
-	float: left;
-	padding-bottom: 10px;
-}
-
-#row3 img {
-	display: inline;
-	position: relative;
-	float: left;
+	width: 335px;
+	margin-right: auto;
+	margin-left: auto;
 	padding-bottom: 10px;
 }
 
 .row-one li {
 	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .row-one p {
@@ -234,12 +230,14 @@ hr {
 	font-family: Lato;
 	font-weight: 300;
 	color: #595959;
-	font-size: 18px;
+	font-size: 1.125em;
 	margin-bottom: 100px;
 }
 
 .row-two li {
 	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .row-two p {
@@ -251,12 +249,14 @@ hr {
 	font-family: Lato;
 	font-weight: 300;
 	color: #595959;
-	font-size: 18px;
+	font-size: 1.125em;
 	margin-bottom: 100px;
 }
 
 .row-three li {
 	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .row-three p {
@@ -268,7 +268,8 @@ hr {
 	font-family: Lato;
 	font-weight: 300;
 	color: #595959;
-	font-size: 18px;
+	font-size: 1.125em;
+	margin-bottom: 100px;
 }
 
 .row a:link {
@@ -291,7 +292,7 @@ hr {
 	text-decoration: none;
 }
 
-.myStory img {
+#mystory img {
 	width: 200px;
 	position: relative;
 	display: block;
@@ -300,16 +301,16 @@ hr {
 	margin-bottom: 20px;
 }
 
-.myStory p {
+#mystory p {
 	font-family: Lato;
 	font-weight: 300;
 	color: #595959;
-	font-size: 18px;
+	font-size: 1.125em;
 	line-height: 2;
 	text-align: justify;
 }
 
-.contact {
+#contact {
 	position: relative;
 	display: block;
 }
