@@ -47,7 +47,7 @@ header {
 	background-repeat: no-repeat;
 	height: 720px;
 	width: 100%;
-	background-size: 100%;
+	background-size: 105%;
 }
 
 #topLine {
@@ -328,6 +328,13 @@ hr {
 	.menuBar li {
 		text-align: center;
 	}
+	#topLine {
+		padding-top: 80px;
+		font-size: 20px;
+	}
+	#secondLine {
+		font-size: 12px;
+	}
 };
 
 @media screen and (max-width: 768px) {
@@ -337,4 +344,19 @@ hr {
 @media screen and (min-width: 768px) {
 	
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
