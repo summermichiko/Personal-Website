@@ -40,18 +40,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-@media screen and (max-width: 40em) {
-	body {
-		font-size: 100%;
-	}
-}
-
-@media screen and (max-width: 30em) {
-	body {
-		font-size: 80%;
-	}
 }	
 
 header {
@@ -269,7 +257,6 @@ hr {
 	font-weight: 300;
 	color: #595959;
 	font-size: 1.125em;
-	margin-bottom: 100px;
 }
 
 .row a:link {
@@ -334,5 +321,20 @@ hr {
   clear: both;
 }
 
+@media screen and (max-width: 480px) {
+	.menuBar p {
+		display: none;
+	}
+	.menuBar li {
+		text-align: center;
+	}
+};
 
+@media screen and (max-width: 768px) {
+
+};
+
+@media screen and (min-width: 768px) {
+	
+};
 
