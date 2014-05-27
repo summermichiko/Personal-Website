@@ -43,21 +43,20 @@ table {
 }
 
 header {
-	background-image: url("http://cdn2.bigbitecreative.com/content/uploads/2013/10/hero-home.jpg");
+	background-image: url("Images/summerhero.png");
 	background-repeat: no-repeat;
 	height: 720px;
-	background-size: 2500px;
+	background-size: 1450px;
 }
 
 #topLine {
 	font-family: Josefin Slab;
 	font-size: 70px;
 	width: 1080px;
-	color: #FFFFFF;
+	color: #595959;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 250px;
-	line-height: 100%;
 	text-align: center;
 }
 
@@ -65,30 +64,25 @@ header {
 	font-family: Lato;
 	font-size: 30px;
 	width: 600px;
-	color: #FFFFFF;
+	color: #595959;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
 	font-weight: 300;
-	line-height: 0%;
+	margin-top: -15px;
 }
 
-#thirdLine {
-	text-align: center;
+#learnmoresec {
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 60px;
+	text-align: center;
+	margin-top: 30px;
 }
 
-#thirdLine a {
-	font-family: Lato;
-	font-size: 25px;
-	width: 150px;
-	color: #FFFFFF;
-	font-weight: 300;
-	border: 1px solid white;
-	padding: 15px;
-	border-radius: 5px;
+#learnmoresec img {
+	height: 20px;
+	width: auto;
+	padding: 5px;
 }
 
 .menuBar {
@@ -131,43 +125,43 @@ header {
 	top: 20px;
 }
 
-.hoverlink a:link {
+#learnmoresec a:link {
 	color: #595959;
 	text-decoration: none;
 }
 
-.hoverlink a:visited { 
+#learnmoresec a:visited { 
 	color: #595959; 
 	text-decoration: none;
 }
 
-.hoverlink a:hover { 
+#learnmoresec a:hover { 
 	color: #595959; 
 	text-decoration: none;
 }
 
-.hoverlink a:active { 
+#learnmoresec a:active { 
 	color: #595959; 
 	text-decoration: none;
 }
 
-#thirdLine a:link {
-	color: #FFFFFF;
+.menuBar a:link {
+	color: #595959;
 	text-decoration: none;
 }
 
-#thirdLine a:visited { 
-	color: #FFFFFF;
+.menuBar a:visited { 
+	color: #595959; 
 	text-decoration: none;
 }
 
-#thirdLine a:hover { 
-	color: #FFFFFF; 
+.menuBar a:hover { 
+	color: #595959; 
 	text-decoration: none;
 }
 
-#thirdLine a:active { 
-	color: #FFFFFF;
+.menuBar a:active { 
+	color: #595959; 
 	text-decoration: none;
 }
 
@@ -193,29 +187,6 @@ hr {
 	width: 50px;
 }
 
-#thirdLine {
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 60px;
-}
-
-#thirdLine a {
-	font-family: Lato;
-	font-size: 25px;
-	width: 150px;
-	color: #FFFFFF;
-	font-weight: 300;
-	border: 1px solid white;
-	padding: 15px;
-	border-radius: 5px;
-}
-
-#thirdLine a:hover {
-	background-color: #FFFFFF;
-	color:#595959;
-}
-
 .contentsec {
 	margin-bottom: 70px;
 	width: 1080px;
@@ -225,7 +196,7 @@ hr {
 }
 
 .laptop img {
-	width: 360px;
+	width: 350px;
 	height: auto;
 }
 
@@ -233,20 +204,91 @@ hr {
 	display: inline;
 	position: relative;
 	float: left;
-	padding-bottom: 100px;
+	padding-bottom: 10px;
 }
 
 #row2 img {
 	display: inline;
 	position: relative;
 	float: left;
-	padding-bottom: 100px;
+	padding-bottom: 10px;
 }
 
 #row3 img {
 	display: inline;
 	position: relative;
 	float: left;
+	padding-bottom: 10px;
+}
+
+.row-one li {
+	display: inline-block;
+}
+
+.row-one p {
+	display: block;
+	position: relative;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Lato;
+	font-weight: 300;
+	color: #595959;
+	font-size: 18px;
+	margin-bottom: 100px;
+}
+
+.row-two li {
+	display: inline-block;
+}
+
+.row-two p {
+	display: block;
+	position: relative;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Lato;
+	font-weight: 300;
+	color: #595959;
+	font-size: 18px;
+	margin-bottom: 100px;
+}
+
+.row-three li {
+	display: inline-block;
+}
+
+.row-three p {
+	display: block;
+	position: relative;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Lato;
+	font-weight: 300;
+	color: #595959;
+	font-size: 18px;
+}
+
+.row a:link {
+	color: #595959;
+	text-decoration: none;
+}
+
+.row a:visited { 
+	color: #595959; 
+	text-decoration: none;
+}
+
+.row a:hover { 
+	color: #595959; 
+	text-decoration: none;
+}
+
+.row a:active { 
+	color: #595959; 
+	text-decoration: none;
 }
 
 .myStory img {
@@ -290,7 +332,6 @@ hr {
   display: table;
   clear: both;
 }
-
 
 
 
