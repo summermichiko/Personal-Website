@@ -42,6 +42,10 @@ table {
 	border-spacing: 0;
 }	
 
+body {
+	font-size: 16px;
+}
+
 header {
 	background-image: url("Images/summerhero.png");
 	background-repeat: no-repeat;
@@ -169,7 +173,7 @@ header {
 section h2 {
 	text-align: center;
 	font-family: Lato;
-	font-size: 30px;
+	font-size: 1.875em;
 	font-weight: 300;
 	color: #595959;
 	margin-top: 70px;
@@ -323,13 +327,14 @@ hr {
 }
 
 @media only screen and (max-width : 480px) {
+	body {
+		font-size: 11px;
+	}
 	#topLine {
-		font-size: 35px;
 		padding-top: 205px;
 		width: 100%;
 	}
 	#secondLine {
-		font-size: 20px;
 		padding-top: 12px;
 		width: 100%;
 	}
@@ -383,13 +388,14 @@ hr {
 	}
 }
 @media only screen and (min-width: 480px) and (max-width: 680px) {
+	body {
+		font-size: 12px;
+	}
 	#topLine {
-		font-size: 47px;
 		padding-top: 185px;
 		width: 100%;
 	}
 	#secondLine {
-		font-size: 23px;
 		padding-top: 12px;
 		width: 100%;
 	}
@@ -420,7 +426,6 @@ hr {
 		margin-left: 25px;
 		text-align: center;
 		position: relative;
-		font-size: 15px;
 		margin-top: 3px;
 	}
 	.menuBar ul {
@@ -432,13 +437,14 @@ hr {
 	}
 }
 @media only screen and (min-width : 680px) and (max-width: 768px) {
+	body {
+		font-size: 14;
+	}
 	#topLine {
-		font-size: 47px;
 		padding-top: 185px;
 		width: 100%;
 	}
 	#secondLine {
-		font-size: 23px;
 		padding-top: 12px;
 		width: 100%;
 	}
@@ -449,6 +455,9 @@ hr {
 		width: auto;
 		background-size: 250%;
 		background-position: -300px 0px;
+	}
+	.menuBar p {
+		display: none;
 	}
 	#lastpic {
 		margin-bottom: 0px;
@@ -462,31 +471,37 @@ hr {
 		width: 345px;
 	}
 	.menuBar p {
-		font-size: 25px;
 		padding-top: 5px;
 	}
 	.menuBar li {
-		margin-right: 15px;
-		margin-left: 15px;
+		margin-right: 25px;
+		margin-left: 25px;
 		text-align: center;
 		position: relative;
-		font-size: 15px;
 		margin-top: 3px;
+	}
+	.menuBar ul {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		position: relative;
+		display: inline-block;
 	}
 }
 
 @media only screen and (min-width : 768px) and (max-width: 1024px) {
+	body {
+		font-size: 15px;
+	}
 	#lastpic {
 		margin-bottom: 0px;
 		text-align: center;
 	}
 	#topLine {
-		font-size: 40px;
 		padding-top: 155px;
 		width: 100%;
 	}
 	#secondLine {
-		font-size: 20px;
 		padding-top: 12px;
 		width: 100%;
 	}
@@ -504,7 +519,9 @@ hr {
 }
 
 @media only screen and (min-width : 1024px) {
-	
+	body {
+		font-size: 17;
+	}
 }
 
 
