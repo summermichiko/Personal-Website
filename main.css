@@ -523,7 +523,7 @@ hr {
 		font-size: 17;
 	}
 	header {
-		height: 600px;
+		height: 720px;
 	}
 	.row-three p {
 	display: block;
@@ -536,6 +536,14 @@ hr {
 	color: #595959;
 	font-size: 1.125em;
 	margin-bottom: 0px;
+	}
+	.laptop img {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		position: relative;
+		display: block;
+		width: 335px;
 	}
 }
 
