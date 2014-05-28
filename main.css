@@ -522,6 +522,21 @@ hr {
 	body {
 		font-size: 17;
 	}
+	header {
+		height: 600px;
+	}
+	.row-three p {
+	display: block;
+	position: relative;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Lato;
+	font-weight: 300;
+	color: #595959;
+	font-size: 1.125em;
+	margin-bottom: 0px;
+}
 }
 
 
