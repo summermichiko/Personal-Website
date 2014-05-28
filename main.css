@@ -476,7 +476,31 @@ hr {
 }
 
 @media only screen and (min-width : 768px) and (max-width: 1024px) {
-	
+	#lastpic {
+		margin-bottom: 0px;
+		text-align: center;
+	}
+	#topLine {
+		font-size: 40px;
+		padding-top: 155px;
+		width: 100%;
+	}
+	#secondLine {
+		font-size: 20px;
+		padding-top: 12px;
+		width: 100%;
+	}
+	header {
+		height: 470px;
+	}
+	.laptop img {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		position: relative;
+		display: block;
+		width: 350px;
+	}
 }
 
 @media only screen and (min-width : 1024px) {
