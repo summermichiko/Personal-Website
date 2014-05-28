@@ -346,12 +346,15 @@ hr {
 	}
 	.row-one p {
 		margin-bottom: 70px;
+		text-align: center;
 	}
 	.row-two p {
 		margin-bottom: 70px;
+		text-align: center;
 	}
 	.row-three p {
 		margin-bottom: 70px;
+		text-align: center;
 	}
 	#lastpic {
 		margin-bottom: 0px;
@@ -364,11 +367,20 @@ hr {
 		display: inline-block;
 	}
 	.menuBar li {
-		margin-right: 29px;
-		margin-left: 29px;
+		margin-right: 25px;
+		margin-left: 25px;
 		text-align: center;
+		position: relative;
 	}
-
+	
+	.laptop img {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		position: relative;
+		display: block;
+		width: 295px;
+	}
 }
 
 @media only screen and (min-width : 480px) and (max-width: 768px) {
