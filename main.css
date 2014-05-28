@@ -372,7 +372,6 @@ hr {
 		text-align: center;
 		position: relative;
 	}
-	
 	.laptop img {
 		margin-right: auto;
 		margin-left: auto;
@@ -384,7 +383,35 @@ hr {
 }
 
 @media only screen and (min-width : 480px) and (max-width: 768px) {
-	
+	#topLine {
+		font-size: 47px;
+		padding-top: 185px;
+		width: 100%;
+	}
+	#secondLine {
+		font-size: 23px;
+		padding-top: 12px;
+		width: 100%;
+	}
+	header {
+		height: 480px;
+		background-image: url("Images/summerhero.png");
+		background-repeat: no-repeat;
+		width: auto;
+		background-size: 250%;
+		background-position: -300px 0px;
+	}
+	#lastpic {
+		margin-bottom: 0px;
+	}
+	.laptop img {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		position: relative;
+		display: block;
+		width: 345px;
+	}
 }
 
 @media only screen and (min-width : 768px) and (max-width: 1024px) {
