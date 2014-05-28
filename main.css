@@ -324,10 +324,64 @@ hr {
 
 @media only screen and (max-width : 480px) {
 	#topLine {
-		font-size: 15px;
+		font-size: 35px;
+		padding-top: 205px;
+		width: 100%;
 	}
+	#secondLine {
+		font-size: 20px;
+		padding-top: 12px;
+		width: 100%;
+	}
+	header {
+		height: 480px;
+		background-image: url("Images/summerhero.png");
+		background-repeat: no-repeat;
+		width: auto;
+		background-size: 250%;
+		background-position: -300px 0px;
+	}
+	.menuBar p {
+		display: none;
+	}
+	.row-one p {
+		margin-bottom: 70px;
+	}
+	.row-two p {
+		margin-bottom: 70px;
+	}
+	.row-three p {
+		margin-bottom: 70px;
+	}
+	#lastpic {
+		margin-bottom: 0px;
+	}
+	.menuBar ul {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		position: relative;
+		display: inline-block;
+	}
+	.menuBar li {
+		margin-right: 25px;
+		margin-left: 25px;
+		text-align: center;
+	}
+
 }
 
+@media only screen and (min-width : 480px) and (max-width: 768px) {
+	
+}
+
+@media only screen and (min-width : 768px) and (max-width: 1024px) {
+	
+}
+
+@media only screen and (min-width : 1024px) {
+	
+}
 
 
 
