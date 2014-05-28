@@ -257,6 +257,7 @@ hr {
 	font-weight: 300;
 	color: #595959;
 	font-size: 1.125em;
+	margin-bottom: 100px;
 }
 
 .row a:link {
@@ -321,29 +322,34 @@ hr {
   clear: both;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-device-width : 480px) {
 	.menuBar p {
 		display: none;
 	}
 	.menuBar li {
 		text-align: center;
 	}
-	#topLine {
-		padding-top: 80px;
-		font-size: 20px;
-	}
-	#secondLine {
-		font-size: 12px;
+	.menuBar ul {
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
 	}
 };
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
 
 };
 
-@media screen and (min-width: 768px) {
-	
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
 };
+
+@media only screen and (min-device-width : 1024px) {
+
+};
+
+
+
 
 
 

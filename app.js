@@ -10,7 +10,7 @@ $(document).ready(function() {
         }
     });
     $(function() {
-    	$("a").bind('click',function(event){
+    	$(".navscroll").bind('click',function(event){
     		event.preventDefault();
         	var anchor = $(this);
         	$('html, body').stop().animate({
