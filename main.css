@@ -328,7 +328,7 @@ hr {
 
 @media only screen and (max-width : 480px) {
 	body {
-		font-size: 11px;
+		font-size: 13px;
 	}
 	#topLine {
 		padding-top: 160px;
@@ -389,7 +389,7 @@ hr {
 }
 @media only screen and (min-width: 480px) and (max-width: 680px) {
 	body {
-		font-size: 12px;
+		font-size: 13px;
 	}
 	#topLine {
 		padding-top: 185px;
