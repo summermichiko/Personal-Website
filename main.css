@@ -49,7 +49,7 @@ body {
 header {
 	background-image: url("Images/summerhero.png");
 	background-repeat: no-repeat;
-	height: 720px;
+	height: 45em;
 	width: 100%;
 	background-size: 105%;
 }
@@ -61,7 +61,7 @@ header {
 	color: #595959;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 250px;
+	padding-top: 3.5em;
 	text-align: center;
 }
 
@@ -74,7 +74,7 @@ header {
 	margin-right: auto;
 	margin-left: auto;
 	font-weight: 300;
-	margin-top: -15px;
+	margin-top: -0.515em;
 }
 
 #learnmoresec {
@@ -194,74 +194,56 @@ hr {
 
 .contentsec {
 	margin-bottom: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#mystory {
 	width: 74.48275862068966%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
 }
 
-.laptop img {
-	width: 335px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-bottom: 10px;
-}
-
-.row-one li {
-	display: inline-block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.row-one p {
-	display: block;
+#mystory img {
+	width: 200px;
 	position: relative;
-	text-align: center;
+	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+#mystory p {
 	font-family: Lato;
 	font-weight: 300;
 	color: #595959;
 	font-size: 1.125em;
+	line-height: 2;
+	text-align: justify;
+}
+
+#portfolio img {
+	width: 352px;
+	margin-right: 1.1em;
+	margin-left: 1.1em;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.item li {
+	display: inline-block;
+}
+
+#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six {
 	margin-bottom: 100px;
 }
 
-.row-two li {
-	display: inline-block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.row-two p {
+.item p {
 	display: block;
 	position: relative;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
 	font-family: Lato;
 	font-weight: 300;
 	color: #595959;
 	font-size: 1.125em;
-	margin-bottom: 100px;
-}
-
-.row-three li {
-	display: inline-block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.row-three p {
-	display: block;
-	position: relative;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Lato;
-	font-weight: 300;
-	color: #595959;
-	font-size: 1.125em;
-	margin-bottom: 100px;
 }
 
 .row a:link {
@@ -282,24 +264,6 @@ hr {
 .row a:active { 
 	color: #595959; 
 	text-decoration: none;
-}
-
-#mystory img {
-	width: 200px;
-	position: relative;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 20px;
-}
-
-#mystory p {
-	font-family: Lato;
-	font-weight: 300;
-	color: #595959;
-	font-size: 1.125em;
-	line-height: 2;
-	text-align: justify;
 }
 
 #contact {
@@ -326,6 +290,10 @@ hr {
   clear: both;
 }
 
+/* ---------------------------------------------------------------------------------------------
+media queries
+----------------------------------------------------------------------------------------------*/
+
 @media only screen and (max-width : 480px) {
 	body {
 		font-size: 14px;
@@ -344,25 +312,13 @@ hr {
 		background-repeat: no-repeat;
 		width: auto;
 		background-size: 250%;
-		background-position: -300px 0px;
+		background-position: -120px -50px;
 	}
 	.menuBar p {
 		display: none;
 	}
-	.row-one p {
-		margin-bottom: 70px;
-		text-align: center;
-	}
-	.row-two p {
-		margin-bottom: 70px;
-		text-align: center;
-	}
-	.row-three p {
-		margin-bottom: 70px;
-		text-align: center;
-	}
-	#lastpic {
-		margin-bottom: 0px;
+	#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven {
+	margin-bottom: 100px;
 	}
 	.menuBar ul {
 		margin-right: auto;
@@ -378,7 +334,7 @@ hr {
 		position: relative;
 		margin-top: 3px;
 	}
-	.laptop img {
+	#portfolio img {
 		margin-right: auto;
 		margin-left: auto;
 		text-align: center;
@@ -387,56 +343,68 @@ hr {
 		width: 295px;
 	}
 }
-@media only screen and (min-width: 480px) and (max-width: 680px) {
-	body {
-		font-size: 14px;
-	}
+
+@media only screen and (max-width: 1360px) {
 	#topLine {
-		padding-top: 185px;
-		width: 100%;
+		font-family: Josefin Slab;
+		font-size: 4em;
+		width: 74.48275862068966%;
+		color: #595959;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 3.5em;
+		text-align: center;
 	}
+
 	#secondLine {
-		padding-top: 12px;
-		width: 100%;
-	}
-	header {
-		height: 480px;
-		background-image: url("Images/summerhero.png");
-		background-repeat: no-repeat;
-		width: auto;
-		background-size: 250%;
-		background-position: -300px 0px;
-	}
-	#lastpic {
-		margin-bottom: 0px;
-	}
-	.laptop img {
+		font-family: Lato;
+		font-size: 1.6em;
+		width: 41.379310344827586%;
+		color: #595959;
+		text-align: center;
 		margin-right: auto;
 		margin-left: auto;
-		text-align: center;
-		position: relative;
-		display: block;
-		width: 345px;
+		font-weight: 300;
+		margin-top: -0.515em;
 	}
-	.menuBar p {
-		display: none;
-	}
-	.menuBar li {
-		margin-right: 25px;
-		margin-left: 25px;
-		text-align: center;
-		position: relative;
-		margin-top: 3px;
-	}
-	.menuBar ul {
-		margin-right: auto;
-		margin-left: auto;
-		text-align: center;
-		position: relative;
-		display: inline-block;
+	#portfolio img {
+		width: 352px;
 	}
 }
-@media only screen and (min-width : 680px) and (max-width: 768px) {
+
+@media only screen and (max-width: 1245px) {
+	#topLine {
+		font-family: Josefin Slab;
+		font-size: 3.75em;
+		width: 70.48275862068966%;
+		color: #595959;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 3.5em;
+		text-align: center;
+	}
+
+	#secondLine {
+		font-family: Lato;
+		font-size: 1.4em;
+		width: 41.379310344827586%;
+		color: #595959;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		font-weight: 300;
+		margin-top: -0.515em;
+	}
+	header {
+		height: 40em;
+		width: 100%;
+		background-size: 105%;
+	}
+	#portfolio img {
+		width: 351px;
+	}
+}
+@media only screen and (max-width: 768px) {
 	body {
 		font-size: 14;
 	}
@@ -462,7 +430,7 @@ hr {
 	#lastpic {
 		margin-bottom: 0px;
 	}
-	.laptop img {
+	#portfolio img {
 		margin-right: auto;
 		margin-left: auto;
 		text-align: center;
@@ -489,7 +457,7 @@ hr {
 	}
 }
 
-@media only screen and (min-width : 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 	body {
 		font-size: 15px;
 	}
@@ -508,7 +476,7 @@ hr {
 	header {
 		height: 470px;
 	}
-	.laptop img {
+	#portfolio img {
 		margin-right: auto;
 		margin-left: auto;
 		text-align: center;
@@ -518,34 +486,7 @@ hr {
 	}
 }
 
-@media only screen and (min-width : 1024px) {
-	body {
-		font-size: 17;
-	}
-	header {
-		height: 720px;
-	}
-	.row-three p {
-	display: block;
-	position: relative;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Lato;
-	font-weight: 300;
-	color: #595959;
-	font-size: 1.125em;
-	margin-bottom: 0px;
-	}
-	.laptop img {
-		margin-right: auto;
-		margin-left: auto;
-		text-align: center;
-		position: relative;
-		display: block;
-		width: 335px;
-	}
-}
+
 
 
 
