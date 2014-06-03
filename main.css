@@ -223,7 +223,8 @@ hr {
 
 #portfolio img {
 	width: 352px;
-	
+	margin-left: 20px;
+	margin-right: 20px;
 	float: left;
 	margin-bottom: 10px;
 }
@@ -237,7 +238,6 @@ hr {
 }
 
 .item p {
-	
 	font-family: Lato;
 	font-weight: 300;
 	color: #595959;
