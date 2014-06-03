@@ -47,7 +47,7 @@ body {
 }
 
 header {
-	background-image: url("images/summerhero.png");
+	background-image: url("images/summerhero.jpg");
 	background-repeat: no-repeat;
 	height: 45em;
 	width: 100%;
@@ -223,8 +223,7 @@ hr {
 
 #portfolio img {
 	width: 352px;
-	margin-right: 1.1em;
-	margin-left: 1.1em;
+	
 	float: left;
 	margin-bottom: 10px;
 }
@@ -238,8 +237,7 @@ hr {
 }
 
 .item p {
-	display: block;
-	position: relative;
+	
 	font-family: Lato;
 	font-weight: 300;
 	color: #595959;
