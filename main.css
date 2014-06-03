@@ -47,11 +47,7 @@ body {
 }
 
 header {
-<<<<<<< HEAD
-	background-image: url("images/summer_hero_2.jpg");
-=======
-	background-image: url("Images/summer_hero_2.jpg");
->>>>>>> master
+	background-image: url("images/summerhero.png");
 	background-repeat: no-repeat;
 	height: 45em;
 	width: 100%;
