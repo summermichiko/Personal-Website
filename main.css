@@ -50,6 +50,7 @@ header {
 	height: 39em;
 	width: 100%;
 }
+
 #summer video {
 	position: absolute;
 	right: 0;
@@ -393,6 +394,19 @@ media queries
 	body {
 		font-size: 14px;
 	}
+
+	#summer video {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	min-width: 100%;
+	top: 0px;
+	height: 400px;
+	min-height: 80%;
+	z-index: -100;
+	background-size: cover;
+}
 
 	#topLine {
 		padding-top: 160px;

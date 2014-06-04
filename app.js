@@ -8,7 +8,7 @@ $(document).ready(function() {
         	}, 700);
     	});
 	});
-    if ($("#topLine").css("width") === "74.5%") {
+    if ($("#topLine").css("width") === "74.5%") { //largest screen
         var headerTop = $('header').offset().top;
         var headerBottom = headerTop + 550; // Sub-menu should appear after this distance from top.
         $(window).scroll(function () {
