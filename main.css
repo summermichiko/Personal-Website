@@ -73,6 +73,7 @@ header {
 	padding-top: 3.5em;
 	text-align: center;
 	z-index: 100;
+	text-transform: uppercase;
 }
 
 #secondLine {
@@ -310,10 +311,12 @@ media queries
 	#topLine {
 		padding-top: 160px;
 		width: 100%;
+		color: #FFFFFF;
 	}
 	#secondLine {
 		padding-top: 12px;
 		width: 100%;
+		color: #FFFFFF;
 	}
 	header {
 		height: 480px;
@@ -357,7 +360,7 @@ media queries
 		font-family: Josefin Slab;
 		font-size: 4em;
 		width: 74.48275862068966%;
-		color: #595959;
+		color: #FFFFFF;
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 3.5em;
@@ -368,7 +371,7 @@ media queries
 		font-family: Lato;
 		font-size: 1.6em;
 		width: 41.379310344827586%;
-		color: #595959;
+		color: #FFFFFF;
 		text-align: center;
 		margin-right: auto;
 		margin-left: auto;
@@ -385,7 +388,7 @@ media queries
 		font-family: Josefin Slab;
 		font-size: 3.75em;
 		width: 70.48275862068966%;
-		color: #595959;
+		color: #FFFFFF;
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 3.5em;
@@ -396,7 +399,7 @@ media queries
 		font-family: Lato;
 		font-size: 1.4em;
 		width: 41.379310344827586%;
-		color: #595959;
+		color: #FFFFFF;
 		text-align: center;
 		margin-right: auto;
 		margin-left: auto;
@@ -419,10 +422,12 @@ media queries
 	#topLine {
 		padding-top: 185px;
 		width: 100%;
+		color: #FFFFFF;
 	}
 	#secondLine {
 		padding-top: 12px;
 		width: 100%;
+		color: #FFFFFF;
 	}
 	header {
 		height: 480px;
@@ -473,12 +478,14 @@ media queries
 		text-align: center;
 	}
 	#topLine {
-		padding-top: 155px;
+		padding-top: 235px;
 		width: 100%;
+		color: #FFFFFF;
 	}
 	#secondLine {
 		padding-top: 12px;
 		width: 100%;
+		color: #FFFFFF;
 	}
 	header {
 		height: 470px;
