@@ -342,6 +342,11 @@ hr {
 	font-weight: 700;
 }
 
+.img-wrap a:hover {
+	background-color: #FFFFFF;
+	color: #292929;
+}
+
 
 
 
