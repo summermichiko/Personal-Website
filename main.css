@@ -234,11 +234,38 @@ hr {
 	text-align: justify;
 }
 
-#portfolio img {
+.item {
+	position: relative;
+}
+
+.item img {
+	width: 375px;
+	float: left;
+}
+
+.img-wrap {
 	width: 375px;
 	margin-left: 5px;
 	margin-right: 5px;
-	float: left;
+	position: relative;
+	overflow: hidden; 
+}
+
+.img-overlay {
+	background-color:#000;
+	bottom:0;
+	color:#fff;
+	opacity:0;
+	position:absolute;
+	width:100%;
+	height: 100%;
+	z-index:1000;
+}
+.img-wrap:hover .img-overlay {
+	opacity:0.75;
+	transition:opacity 0.25s;
+	-moz-transition:opacity 0.25s;
+	-webkit-transition:opacity 0.25s;
 }
 
 .item li {
@@ -247,13 +274,6 @@ hr {
 
 #laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six {
 	margin-bottom: 10px;
-}
-
-.item p {
-	font-family: Lato;
-	font-weight: 300;
-	color: #595959;
-	font-size: 1.125em;
 }
 
 .row a:link {
