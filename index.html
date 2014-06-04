@@ -7,8 +7,18 @@
 		<link rel="stylesheet" href="main.css" media="screen">
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'>		
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+<<<<<<< HEAD
 		<link rel=”shortcut icon” href=”http://www.mysites.com/favicon.ico” type=”image/icon”>
 		<link rel=”icon” href=”http://www.mysites.com/favicon.ico” type=”image/icon”>
+=======
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+>>>>>>> gh-pages
 	</head>
 	<body>
 		<nav class="menuBar">
@@ -20,19 +30,24 @@
 			</ul>
 		</nav>
 		<header id="summer">
-			<h1 id="topLine">SUMMER MCDONALD</h1>
+			<video autoplay loop id="topVids">
+				<source src="videos/Top_Video.webm" type="video/webm">
+				<source src="videos/Top_Video.mp4" type="video/mp4">
+			</video>
+			<h1 id="topLine">summer mcdonald</h1>
 			<h1 id="secondLine">a web developer from Hawai`i</h1>
 			<div id="learnmoresec">
-				<a href="#mystory" class="navscroll">
-					<img src="Images/arrow.png">
-				</a>
-			</div>
+			<a href="#mystory" class="navscroll bar">
+				<div class="bounce">
+					<img src="images/arrow.png">
+				</div>
+			</a>
 		</header>
 		<section id="mystory" class="contentsec">
 			<h2>MY STORY</h2>
 			<hr />
-			<img src="http://restored316designs.com/mainsite/wp-content/themes/r3d0214/images/about.png">
-			<p>Hi!  I'm Summer, a freelance front end developer from Honolulu, Hawaii, currently residing in Brooklyn, New York.   I love creating and designing websites for ideas that I believe in, finding that healthy balance between functionality and visual impact in all my work.  Feel free to have a look at my portfolio and don't hesitate to contact me if you think I can be of service to you.  Thanks for stopping by!</p>
+			<img src="images/My_Story.png">
+			<p>Hi!  I'm Summer, a self-taught freelance front end developer - phew, that's a mouthful!  In short, I taught myself how to build really good looking websites.  I love creating and designing websites for ideas that I believe in, finding that healthy balance between functionality and visual impact in all my work.  Feel free to have a look at my portfolio and don't hesitate to contact me if you think I can be of service to you.</p>
 		</section>
 		<section id="portfolio" class="contentsec group">
 		<h2>PORTFOLIO</h2>
@@ -40,37 +55,61 @@
 			<div class="portpics group">
 				<div class="laptop">
 					<ul class="item row">
-						<li id="laptop-one">								
-							<a href="http://summermichiko.github.io/Small-Business-Landing-Page" target="_blank"><img src="Images/Small_Business_Landing_Page.png">
-							<p>Branch Studios Hawaii</p></a>
+						<li id="laptop-one" class="img-wrap">								
+							<img src="images/Small_Business_Landing_Page.png" />
+							<div class="img-overlay">
+								<h4>Branch Studios Hawaii</h4>
+								<a href="http://summermichiko.github.io/Small-Business-Landing-Page" target="_blank">View Project</a>
+							</div>
 						</li>
-						<li id="laptop-two">
-							<a href="http://summermichiko.github.io/Thinkful-Mentor-Training-Guide" target="_blank"><img src="Images/Thinkful_Mentor_Training_Guide.png">
-							<p>Thinkful Mentor Training Guide</p></a>
+						<li id="laptop-two" class="img-wrap">								
+							<img src="images/Thinkful_Mentor_Training_Guide.png"/>
+							<div class="img-overlay">
+								<h4>Thinkful Mentor Training Guide</h4>
+								<a href="http://summermichiko.github.io/Thinkful-Mentor-Training-Guide" target="_blank">View Project</a>
+							</div>
 						</li>
-						<li id="laptop-three">
-							<a href="http://summermichiko.github.io/Shopping-List-App" target="_blank"><img src="Images/Shopping_List.png">
-							<p>Shopping List App</p></a>
+						<li id="laptop-three" class="img-wrap">								
+							<img src="images/Shopping_List.png"/>
+							<div class="img-overlay">
+								<h4>Shopping List App</h4>
+								<a href="http://summermichiko.github.io/Shopping-List-App" target="_blank">View Project</a>
+							</div>
 						</li>
-						<li id="laptop-four">
-							<a href="http://summermichiko.github.io/API-Hack-Project" target="_blank"><img src="Images/API_Hack.png">
-							<p>Instagram Hack</p></a>
+						<li id="laptop-four" class="img-wrap">								
+							<img src="images/API_Hack.png"/>
+							<div class="img-overlay">
+								<h4>INSTAGRAM QUICK SEARCH</h4>
+								<a href="http://summermichiko.github.io/API-Hack-Project" target="_blank">View Project</a>
+							</div>
 						</li>
-						<li id="laptop-five">
-							<a href="http://summermichiko.github.io/Hawaii-Quiz-App" target="_blank"><img src="Images/Kamaaina_Quiz.png">
-							<p>Kama`aina Quiz App</p></a>
+						<li id="laptop-five" class="img-wrap">								
+							<img src="images/Kamaaina_Quiz.png"/>
+							<div class="img-overlay">
+								<h4>Kama`aina Quiz App</h4>
+								<a href="http://summermichiko.github.io/Hawaii-Quiz-App" target="_blank">View Project</a>
+							</div>
 						</li>
-						<li id="laptop-six">
-							<a href="http://summermichiko.github.io/Hot-or-Cold-App" target="_blank"><img src="Images/Hot_Cold.png">
-							<p>Hot and Cold Game</p></a>
+						<li id="laptop-six" class="img-wrap">								
+							<img src="images/Hot_Cold.png"/>
+							<div class="img-overlay">
+								<h4>Hot or Cold Game</h4>
+								<a href="http://summermichiko.github.io/Hot-or-Cold-App" target="_blank">View Project</a>
+							</div>
 						</li>
-						<li id="laptop-seven">
-							<a href="http://summermichiko.github.io/FizzBuzz" target="_blank"><img src="Images/Fizz_Buzz.png">
-							<p>Fizz Buzz GUI</p></a>
+						<li id="laptop-seven" class="img-wrap">								
+							<img src="images/Fizz_Buzz.png"/>
+							<div class="img-overlay">
+								<h4>Fizz Buzz GUI</h4>
+								<a href="http://summermichiko.github.io/FizzBuzz" target="_blank">View Project</a>
+							</div>
 						</li>
-				 		<li id="laptop-eight">
-							<a href="http://summermichiko.github.io/Personal-Website" target="_blank"><img src="Images/Fizz_Buzz.png">
-							<p id="lastpic">Personal Website</p></a>
+						<li id="laptop-eight" class="img-wrap">								
+							<img src="images/Personal_Website.png"/>
+							<div class="img-overlay">
+								<h4>Personal Website</h4>
+								<a href="http://summermichiko.github.io/Personal-Website" target="_blank">View Project</a>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -80,10 +119,10 @@
 			<h2>GET IN TOUCH</h2>
 			<hr />
 			<ul class="contactChoices">
-				<li><a href="mailto:hellosummermcdonald@gmail.com?" target="_blank"><img src="Images/email_icon.png"></a></li>
-				<li><a href="https://www.linkedin.com/profile/view?id=297787710&trk=nav_responsive_tab_profile_pic" target="_blank"><img src="Images/linkedin_icon.png"></a></li>
-				<li><a href="https://www.facebook.com/summer.mm.mcdonald" target="_blank"><img src="Images/facebook_icon.png"></a></li>
-				<li><a href="https://github.com/summermichiko" target="_blank"><img src="Images/github_icon.png"></a></li>
+				<li><a href="mailto:hellosummermcdonald@gmail.com?" target="_blank"><img src="images/email_icon.png"></a></li>
+				<li><a href="https://www.linkedin.com/profile/view?id=297787710&trk=nav_responsive_tab_profile_pic" target="_blank"><img src="images/linkedin_icon.png"></a></li>
+				<li><a href="https://www.facebook.com/summer.mm.mcdonald" target="_blank"><img src="images/facebook_icon.png"></a></li>
+				<li><a href="https://github.com/summermichiko" target="_blank"><img src="images/github_icon.png"></a></li>
 			</ul>
 		</section>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
