@@ -106,6 +106,7 @@ header {
 .bar {
   position: fixed;
 }
+
 .bounce {
   position: fixed;
   left:50%;
