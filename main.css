@@ -262,11 +262,89 @@ hr {
 	z-index:1000;
 }
 .img-wrap:hover .img-overlay {
-	opacity:0.75;
+	opacity:0.85;
 	transition:opacity 0.25s;
 	-moz-transition:opacity 0.25s;
 	-webkit-transition:opacity 0.25s;
 }
+
+#laptop-one h4 {
+	font-family: Pacifico;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+#laptop-two h4 {
+	font-family: Merriweather;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#laptop-three h4 {
+	font-family: Pacifico;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+#laptop-four h4 {
+	font-family: Josefin Slab;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+#laptop-five h4 {
+	font-family: Amatic SC;
+	color: #FFFFFF;
+	font-size: 40px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+#laptop-six h4 {
+	font-family: Raleway;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+#laptop-seven h4 {
+	font-family: Grand Hotel;
+	color: #FFFFFF;
+	font-size: 40px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+#laptop-eight h4 {
+	font-family: Josefin Slab;
+	color: #FFFFFF;
+	font-size: 35px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.img-wrap a {
+	font-family: Lato;
+	font-size: 20px;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	border-radius: 25px;
+	padding: 15px;
+	font-weight: 700;
+}
+
+
+
+
 
 .item li {
 	display: inline-block;
