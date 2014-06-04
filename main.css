@@ -318,7 +318,7 @@ media queries
 		display: none;
 	}
 	#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven {
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 	}
 	.menuBar ul {
 		margin-right: auto;
