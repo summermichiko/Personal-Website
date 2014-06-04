@@ -56,7 +56,7 @@ $(document).ready(function() {
             }
         });
     };
-    if ($("#portfolio img").css("width") === "352px") {
+    if ($(".item img").css("width") === "375px") {
         var headerTop = $('header').offset().top;
         var headerBottom = headerTop + 550; // Sub-menu should appear after this distance from top.
         $(window).scroll(function () {
