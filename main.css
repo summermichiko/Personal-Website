@@ -389,7 +389,7 @@ hr {
 media queries
 ----------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 480px) { /*smallest screen*/
 	body {
 		font-size: 14px;
 	}
@@ -408,7 +408,7 @@ media queries
 	display: none;
 }
 
-header{
+header {
 	background: url("images/Query_Img.png");
 }
 
@@ -437,7 +437,7 @@ header{
 	}
 
 	#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven {
-	margin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 
 	.img-wrap {
@@ -447,6 +447,13 @@ header{
 		width: 290px;
 		overflow: hidden;
 	}	
+
+	.img-wrap img {
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 290px;
+	}
 
 	.img-overlay {
 		background-color: #000;
@@ -545,14 +552,7 @@ header{
 		position: relative;
 		margin-top: 3px;
 	}
-	#portfolio img {
-		margin-right: auto;
-		margin-left: auto;
-		text-align: center;
-		position: relative;
-		display: block;
-		width: 295px;
-	}
+
 }
 
 @media only screen and (max-width : 1024px) {
