@@ -282,8 +282,8 @@ hr {
 	font-family: Merriweather;
 	color: #FFFFFF;
 	font-size: 30px;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 45px;
+	margin-bottom: 35px;
 }
 
 #laptop-three h4 {
@@ -453,6 +453,7 @@ header {
 		margin-right: auto;
 		position: relative;
 		width: 290px;
+		float: none;
 	}
 
 	.img-overlay {
