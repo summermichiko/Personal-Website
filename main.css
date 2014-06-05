@@ -469,7 +469,7 @@ media queries
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		width: 290px;
+		width: 100%;
 		overflow: hidden;
 	}	
 
@@ -477,7 +477,7 @@ media queries
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		width: 290px;
+		width: 100%;
 		float: none;
 		display: block;
 	}
