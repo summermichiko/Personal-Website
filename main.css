@@ -363,7 +363,6 @@ hr {
 
 #contact {
 	position: relative;
-	display: block;
 }
 
 .contactChoices li {
@@ -391,7 +390,7 @@ media queries
 
 @media only screen and (max-width : 480px) { /*smallest screen*/
 	body {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	#summer video {
@@ -430,12 +429,35 @@ media queries
 		position: relative;
 		display: inline-block;
 	}
+
 	.menuBar li {
 		margin-right: 25px;
 		margin-left: 25px;
 		text-align: center;
 		position: relative;
 		margin-top: 3px;
+	}
+
+		#mystory {
+		width: 74.48275862068966%;
+	}
+
+	#mystory img {
+		width: 225px;
+		position: relative;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+
+	#mystory p {
+		font-family: Lato;
+		font-weight: 300;
+		color: #595959;
+		font-size: 1.125em;
+		line-height: 2;
+		text-align: justify;
 	}
 
 	#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven {
@@ -456,6 +478,11 @@ media queries
 		position: relative;
 		width: 290px;
 		float: none;
+		display: block;
+	}
+
+	.item li {
+		display: block;
 	}
 
 	.img-overlay {
