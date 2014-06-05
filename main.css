@@ -411,12 +411,15 @@ media queries
 		padding-top: 160px;
 		width: 100%;
 		color: #FFFFFF;
+		font-size: 3.375em;
 	}
 
 	#secondLine {
 		padding-top: 12px;
 		width: 100%;
 		color: #FFFFFF;
+		font-size: 1.25em;
+		margin-top: -1em;
 	}
 
 	.menuBar p {
@@ -437,6 +440,7 @@ media queries
 		text-align: center;
 		position: relative;
 		margin-top: 3px;
+		font-size: 13px;
 	}
 
 	#mystory {
