@@ -8,9 +8,10 @@ $(document).ready(function() {
         	}, 700);
     	});
 	});
-    if ($("#topLine").css("width") === "74.5%") { //largest screen
+
+     if ($(".item img").css("width") === "375px") { //largest screen
         var headerTop = $('header').offset().top;
-        var headerBottom = headerTop + 550; // Sub-menu should appear after this distance from top.
+        var headerBottom = headerTop + 600; // Sub-menu should appear after this distance from top.
         $(window).scroll(function () {
             var scrollTop = ($(window).scrollTop()); // Current vertical scroll position from the top
             if (scrollTop > headerBottom) { // Check to see if we have scrolled more than headerBottom
@@ -20,7 +21,8 @@ $(document).ready(function() {
             }
         });
     };
-    if ($("#topLine").css("width") === "100%") { //smallest screen
+
+    if ($(".item img").css("width") === "290px") { //smallest screen
         var headerTop = $('header').offset().top;
         var headerBottom = headerTop + 450; // Sub-menu should appear after this distance from top.
         $(window).scroll(function () {
@@ -32,4 +34,5 @@ $(document).ready(function() {
             }
         });
     };
+
 });

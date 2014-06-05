@@ -390,7 +390,7 @@ media queries
 
 @media only screen and (max-width : 480px) { /*smallest screen*/
 	body {
-		font-size: 16px;
+		font-size: 15px;
 	}
 
 	#summer video {
@@ -404,6 +404,7 @@ media queries
 		width: auto;
 		background-size: 250%;
 		background-position: -120px -50px;
+		overflow: hidden;
 	}
 
 	#topLine {
@@ -438,7 +439,7 @@ media queries
 		margin-top: 3px;
 	}
 
-		#mystory {
+	#mystory {
 		width: 74.48275862068966%;
 	}
 
@@ -614,6 +615,29 @@ media queries
 		color: #FFFFFF;
 		padding: 12px;
 		font-weight: 300;
+	}
+}
+
+
+@media only screen and (max-width : 768px) {
+	.menuBar p {
+		display: none;
+	}
+
+	.menuBar ul {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		position: relative;
+		display: inline-block;
+	}
+
+	.menuBar li {
+		margin-right: 25px;
+		margin-left: 25px;
+		text-align: center;
+		position: relative;
+		margin-top: 3px;
 	}
 }
 
