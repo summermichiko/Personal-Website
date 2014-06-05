@@ -274,7 +274,7 @@ hr {
 	font-family: Pacifico;
 	color: #FFFFFF;
 	font-size: 30px;
-	margin-top: 60px;
+	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
@@ -282,24 +282,24 @@ hr {
 	font-family: Merriweather;
 	color: #FFFFFF;
 	font-size: 30px;
-	margin-top: 45px;
-	margin-bottom: 35px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 #laptop-three h4 {
 	font-family: Pacifico;
 	color: #FFFFFF;
 	font-size: 30px;
-	margin-top: 60px;
+	margin-top: 70px;
 	margin-bottom: 40px;
 }
 
 #laptop-four h4 {
 	font-family: Josefin Slab;
 	color: #FFFFFF;
-	font-size: 30px;
-	margin-top: 50px;
-	margin-bottom: 30px;
+	font-size: 25px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 #laptop-five h4 {
