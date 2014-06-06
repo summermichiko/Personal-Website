@@ -423,24 +423,16 @@ media queries
 	}
 
 	.menuBar p {
-		display: none;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.menuBar ul {
-		margin-right: auto;
-		margin-left: auto;
-		text-align: center;
-		position: relative;
-		display: inline-block;
+		display: none;
 	}
 
 	.menuBar li {
-		margin-right: 25px;
-		margin-left: 25px;
-		text-align: center;
-		position: relative;
-		margin-top: 3px;
-		font-size: 13px;
+		display: none;
 	}
 
 	#mystory {
