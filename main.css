@@ -125,7 +125,7 @@ header {
 	position: relative;
 	float: left;
 	font-size: 1.875em;
-	margin-top: 14px;
+	margin-top: 15px;
 	margin-left: 7.586206896551724%;
 }
 
@@ -143,6 +143,12 @@ header {
 	margin-right: 3.4482758620689655%;
 	top: 20px;
 }
+
+.menuBar img {
+		position: inline-block;
+		width: 18px;
+		display: none;
+	}
 
 #learnmoresec a:link {
 	color: #595959;
@@ -557,13 +563,12 @@ media queries
 	.menuBar p {
 		font-family: Josefin Slab;
 		font-weight: 300;
-		display: block;
+		display: inline-block;
 		position: relative;
-		float: none;
+		float: left;
 		font-size: 1.875em;
 		margin-top: 14px;
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 25px;
 	}
 
 	.menuBar ul {
@@ -572,6 +577,15 @@ media queries
 
 	.menuBar li {
 		display: none;
+	}
+
+	.menuBar img {
+		float: right;
+		position: relative;
+		display: inline-block;
+		width: 18px;
+		right: 25px;
+		top: 20px;
 	}
 }
 
