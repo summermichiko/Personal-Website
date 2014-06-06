@@ -9,7 +9,7 @@ $(document).ready(function() {
     	});
 	});
 
-     if ($(".item img").css("width") === "375px") { //largest screen
+    if ($(".item img").css("width") === "375px") { //largest screen
         var headerTop = $('header').offset().top;
         var headerBottom = headerTop + 600; // Sub-menu should appear after this distance from top.
         $(window).scroll(function () {
@@ -34,5 +34,10 @@ $(document).ready(function() {
             }
         });
     };
+
+    $(".menuBar img").on("click", function() {
+        console.log("test");
+        $(".dropDown").show();
+    });
 
 });
