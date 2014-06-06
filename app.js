@@ -37,7 +37,12 @@ $(document).ready(function() {
 
     $(".menuBar img").on("click", function() {
         console.log("test");
-        $(".dropDown").show();
+        $(".dropDown").toggle();
     });
+
+    $(".dropDown a").on("click", function() {
+        console.log("hide test");
+        $(".dropDown").hide();
+    })
 
 });
