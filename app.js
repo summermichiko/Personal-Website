@@ -43,9 +43,6 @@ $(document).ready(function() {
     $(".dropDown a").on("click", function() {
         console.log("hide test");
         $(".dropDown").hide();
-<<<<<<< HEAD
-    })
-=======
     });
 
     /*if ($(".menuBar").css("display") === "none") {
@@ -64,6 +61,5 @@ $(document).ready(function() {
             }
         });
     };*/
->>>>>>> gh-pages
 
 });
