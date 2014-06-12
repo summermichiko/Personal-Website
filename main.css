@@ -67,11 +67,10 @@ header {
 #topLine {
 	font-family: Josefin Slab;
 	font-size: 4.375em;
-	width: 74.5%;
 	color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 3.5em;
+	padding-top: 3.2em;
 	text-align: center;
 	z-index: 100;
 	text-transform: uppercase;
@@ -474,7 +473,6 @@ media queries
 		color: #FFFFFF;
 		font-size: 1.25em;
 		margin-top: -1em;
-<<<<<<< HEAD
 	}
 
 	.menuBar p {
@@ -495,8 +493,6 @@ media queries
 
 	.menuBar li {
 		display: none;
-=======
->>>>>>> gh-pages
 	}
 
 	#mystory {
@@ -522,15 +518,9 @@ media queries
 	}
 
 	#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	margin-bottom: 10px;
-=======
 	margin-bottom: 20px;
->>>>>>> gh-pages
-=======
-		margin-bottom: 20px;
->>>>>>> gh-pages
+	margin-bottom: 20px;
 	}
 
 	.img-wrap {
