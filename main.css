@@ -58,7 +58,8 @@ header {
 	right: 0;
 	top: 0;
 	width: 100%;
-	height: 600px;
+	height: auto;
+	max-height: 100%;
 	z-index: -100;
 	background-size: cover;
 }
@@ -115,6 +116,12 @@ header {
 	text-align: center;
 	z-index: 10000;
 	display: none;
+}
+
+.menuBarText {
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .menuBar p {
@@ -267,7 +274,7 @@ hr {
 }
 
 #mystory {
-	width: 74.48275862068966%;
+	width: 50%;
 }
 
 #mystory img {
@@ -285,7 +292,7 @@ hr {
 	color: #595959;
 	font-size: 1.125em;
 	line-height: 2;
-	text-align: justify;
+	text-align: center;
 }
 
 .item {
@@ -626,9 +633,13 @@ media queries
 		padding: 12px;
 		font-weight: 300;
 	}
+
+	#mystory p {
+		text-align: justify;
+	}
 }
 
-@media only screen and (max-width : 768px) { /*second media query*/
+@media only screen and (max-width : 875px) { /*second media query*/
 	.menuBar p {
 		font-family: Josefin Slab;
 		font-weight: 300;
@@ -656,9 +667,16 @@ media queries
 		right: 25px;
 		top: 20px;
 	}
+
 	#topLine {
 		padding-top: 3em;
 	}
+
+	#mystory {
+		width: 70%;
+	}
+
+
 }
 
 @media only screen and (max-width : 1024px) { /*third media query*/
