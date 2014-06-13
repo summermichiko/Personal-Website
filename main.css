@@ -70,7 +70,7 @@ header {
 	color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 3.4em;
+	padding-top: 3.7em;
 	text-align: center;
 	z-index: 100;
 	text-transform: uppercase;
@@ -655,6 +655,9 @@ media queries
 		width: 18px;
 		right: 25px;
 		top: 20px;
+	}
+	#topLine {
+		padding-top: 3em;
 	}
 }
 
