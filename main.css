@@ -46,17 +46,13 @@ body {
 	font-size: 16px;
 }
 
-header {
-	background-repeat: no-repeat;
-	height: 45em;
+#summer {
 	height: 39em;
 	width: 100%;
 }
 
 #summer video {
 	position: absolute;
-	right: 0;
-	top: 0;
 	width: 100%;
 	height: auto;
 	max-height: 100%;
@@ -468,7 +464,7 @@ media queries
 	}
 
 	#topLine {
-		padding-top: 160px;
+		padding-top: 190px;
 		width: 100%;
 		color: #FFFFFF;
 		font-size: 3.375em;
