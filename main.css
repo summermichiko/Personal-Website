@@ -258,7 +258,7 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 60px;
-	width: 3.4482758620689655%;
+	width: 25px;
 }
 
 .contentsec {
@@ -301,8 +301,9 @@ hr {
 
 .img-wrap {
 	width: 375px;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 2px;
 	position: relative;
 	overflow: hidden; 
 }
@@ -405,10 +406,6 @@ hr {
 
 .item li {
 	display: inline-block;
-}
-
-#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven, #laptop-eight {
-	margin-bottom: 10px;
 }
 
 .row a:link {
