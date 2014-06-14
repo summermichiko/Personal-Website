@@ -296,8 +296,7 @@ hr {
 
 .img-wrap {
 	width: 375px;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin: 1px;
 	position: relative;
 	overflow: hidden; 
 }
@@ -400,10 +399,6 @@ hr {
 
 .item li {
 	display: inline-block;
-}
-
-#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven, #laptop-eight {
-	margin-bottom: 10px;
 }
 
 .row a:link {
@@ -512,12 +507,6 @@ media queries
 		font-size: 1.125em;
 		line-height: 2;
 		text-align: justify;
-	}
-
-	#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven {
-		margin-bottom: 10px;
-		margin-bottom: 20px;
-		margin-bottom: 20px;
 	}
 
 	.img-wrap {
