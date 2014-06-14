@@ -332,63 +332,7 @@ hr {
 	-webkit-transition:opacity 0.25s;
 }
 
-#laptop-one h4 {
-	font-family: Pacifico;
-	color: #FFFFFF;
-	font-size: 30px;
-	margin-top: 70px;
-	margin-bottom: 40px;
-}
-
-#laptop-two h4 {
-	font-family: Merriweather;
-	color: #FFFFFF;
-	font-size: 30px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-#laptop-three h4 {
-	font-family: Pacifico;
-	color: #FFFFFF;
-	font-size: 30px;
-	margin-top: 62px;
-	margin-bottom: 40px;
-}
-
-#laptop-four h4 {
-	font-family: Josefin Slab;
-	color: #FFFFFF;
-	font-size: 28px;
-	margin-top: 35px;
-	margin-bottom: 40px;
-}
-
-#laptop-five h4 {
-	font-family: Amatic SC;
-	color: #FFFFFF;
-	font-size: 40px;
-	margin-top: 50px;
-	margin-bottom: 40px;
-}
-
-#laptop-six h4 {
-	font-family: Raleway;
-	color: #FFFFFF;
-	font-size: 30px;
-	margin-top: 60px;
-	margin-bottom: 40px;
-}
-
-#laptop-seven h4 {
-	font-family: Grand Hotel;
-	color: #FFFFFF;
-	font-size: 40px;
-	margin-top: 50px;
-	margin-bottom: 40px;
-}
-
-#laptop-eight h4 {
+.img-wrap h4 {
 	font-family: Josefin Slab;
 	color: #FFFFFF;
 	font-size: 35px;
