@@ -464,10 +464,10 @@ media queries
 	}
 
 	#topLine {
-		padding-top: 190px;
-		width: 100%;
+		margin-top: 50px;
+		width: 95%;
 		color: #FFFFFF;
-		font-size: 3.375em;
+		font-size: 3.675em;
 	}
 
 	#secondLine {
@@ -521,9 +521,9 @@ media queries
 	}
 
 	#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven {
-	margin-bottom: 10px;
-	margin-bottom: 20px;
-	margin-bottom: 20px;
+		margin-bottom: 10px;
+		margin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 
 	.img-wrap {
@@ -666,13 +666,12 @@ media queries
 
 	#topLine {
 		padding-top: 3em;
+		width: 95%;
 	}
 
 	#mystory {
 		width: 70%;
 	}
-
-
 }
 
 @media only screen and (max-width : 1024px) { /*third media query*/
