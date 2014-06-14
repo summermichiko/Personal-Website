@@ -46,7 +46,8 @@ body {
 	font-size: 16px;
 }
 
-#summer {
+/* ---------------------------------- video section ------------------------------------------- */
+#summer { /*top video section*/
 	height: 39em;
 	width: 100%;
 }
@@ -114,7 +115,6 @@ body {
 }
 
 .menuBarText {
-	width: 99%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -239,7 +239,15 @@ body {
 	text-decoration: none;
 }
 
-section h2 {
+/* ------------------------------------- general groupings ----------------------------------------------- */
+
+section {
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+section h2 { /*header for each section*/
 	text-align: center;
 	font-family: Lato;
 	font-size: 1.875em;
@@ -247,6 +255,7 @@ section h2 {
 	color: #595959;
 	margin-top: 70px;
 	margin-bottom: 20px;
+	width: 100%;
 }
 
 hr {
@@ -261,42 +270,38 @@ hr {
 	width: 25px;
 }
 
-.contentsec {
-	margin-bottom: 70px;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-}
-
-#mystory {
-	width: 50%;
-}
+/* ---------------------------------- my story section -------------------------------------------- */
 
 #mystory img {
-	width: 225px;
+	width: 49%;
 	position: relative;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 20px;
+	margin-right: 1%;
 }
 
 #mystory p {
 	font-family: Lato;
 	font-weight: 300;
 	color: #595959;
-	font-size: 1.125em;
+	font-size: 1.2em;
 	line-height: 2;
-	text-align: center;
+	text-align: justify;
+	position: relative;
+	margin-left: 1%;
+	width: 49%;
+	float: right;
 }
+
+/* ------------------------------- portfolio section ------------------------------------------ */
 
 .item {
 	position: relative;
+	text-align: center;
 }
 
 .item img {
 	width: 375px;
 	float: left;
+
 }
 
 .img-wrap {
@@ -306,6 +311,7 @@ hr {
 	margin-bottom: 2px;
 	position: relative;
 	overflow: hidden; 
+	text-align: center;
 }
 
 .img-overlay {
@@ -413,8 +419,11 @@ hr {
 	text-decoration: none;
 }
 
+/* ------------------------------------- contact section --------------------------------------- */
+
 #contact {
 	position: relative;
+	text-align: center;
 }
 
 .contactChoices li {
@@ -435,6 +444,8 @@ hr {
 	display: table;
 	clear: both;
 }
+
+/* --------------------------------------- footer section -------------------------------------- */
 
 footer {
 	background-color: #FFFFFF;
@@ -469,9 +480,7 @@ media queries
 	}
 
 	header {
-		height: 480px;
 		background: url("images/Query_Img.png");
-		background-repeat: no-repeat;
 		width: auto;
 		background-size: 250%;
 		background-position: -120px -50px;
