@@ -59,6 +59,7 @@ body {
 	height: auto;
 	z-index: -100;
 	background-size: cover;
+	overflow: auto;
 }
 
 .videoText {
@@ -251,6 +252,7 @@ section {
 	width: 85%;
 	margin-bottom: 70px;
 	display: block;
+	position: relative;
 }
 
 section h2 { /*header for each section*/
@@ -329,7 +331,7 @@ hr {
 }
 
 .img-overlay {
-	background-color: #3049FF;
+	background-color: #2E50D9;
 	top: 0;
 	color: #fff;
 	opacity: 0;
@@ -364,7 +366,7 @@ hr {
 
 .img-overlay p:hover {
 	background-color: #FFFFFF;
-	color: #3049FF;
+	color: #2E50D9;
 }
 
 .img-wrap a:link {
@@ -449,6 +451,7 @@ media queries
 
 	header {
 		background: url("images/Query_Img.png");
+		background-repeat: no-repeat;
 		width: auto;
 		background-size: 250%;
 		background-position: -120px -50px;
