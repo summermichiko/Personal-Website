@@ -46,23 +46,24 @@ body {
 	font-size: 16px;
 }
 
-header {
-	background-repeat: no-repeat;
-	height: 45em;
+/* ---------------------------------- video section ------------------------------------------- */
+#summer { /*top video section*/
 	height: 39em;
 	width: 100%;
 }
 
 #summer video {
 	position: absolute;
-	right: 0;
-	top: 0;
+	display: block;
 	width: 100%;
-	height: 600px;
+	height: auto;
 	z-index: -100;
 	background-size: cover;
 }
 
+.videoText {
+	text-align: center;
+}
 
 #topLine {
 	font-family: Josefin Slab;
@@ -89,7 +90,7 @@ header {
 	z-index: 100;
 }
 
-#learnmoresec {
+.bounce {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -97,7 +98,7 @@ header {
 	z-index: 100;
 }
 
-#learnmoresec img {
+.bounce img {
 	height: 20px;
 	width: auto;
 	padding: 5px;
@@ -118,7 +119,10 @@ header {
 }
 
 .menuBarText {
+<<<<<<< HEAD
 	width: 90%;
+=======
+>>>>>>> gh-pages
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -237,7 +241,17 @@ header {
 	text-decoration: none;
 }
 
-section h2 {
+/* ------------------------------------- general groupings ----------------------------------------------- */
+
+section {
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	margin-bottom: 70px;
+	display: block;
+}
+
+section h2 { /*header for each section*/
 	text-align: center;
 	font-family: Lato;
 	font-size: 1.875em;
@@ -245,6 +259,7 @@ section h2 {
 	color: #595959;
 	margin-top: 70px;
 	margin-bottom: 20px;
+	width: 100%;
 }
 
 hr {
@@ -256,63 +271,69 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 60px;
-	width: 3.4482758620689655%;
+	width: 25px;
 }
 
-.contentsec {
-	margin-bottom: 70px;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-}
+/* ---------------------------------- my story section -------------------------------------------- */
 
-#mystory {
-	width: 74.48275862068966%;
-}
-
-#mystory img {
-	width: 225px;
+.myStoryContent {
 	position: relative;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 20px;
 }
 
-#mystory p {
+.myStoryContent p {
 	font-family: Lato;
 	font-weight: 300;
 	color: #595959;
-	font-size: 1.125em;
-	line-height: 2;
+	font-size: 1.1em;
+	line-height: 1.8;
 	text-align: justify;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 49%;
 }
+
+/* ------------------------------- portfolio section ------------------------------------------ */
 
 .item {
 	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.item img {
-	width: 375px;
-	float: left;
+.item li {
+	display: inline-block;
 }
 
-.img-wrap {
+.img-wrap { /* each li */
 	width: 375px;
-	margin-left: 5px;
-	margin-right: 5px;
 	position: relative;
 	overflow: hidden; 
 }
 
+.img-wrap img {
+	width: 375px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.img-wrap p { /* label under portfolio */
+	text-align: center;
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 20px;
+	margin-bottom: 70px;
+}
+
 .img-overlay {
-	background-color:#000;
-	bottom:0;
-	color:#fff;
-	opacity:0;
-	position:absolute;
-	width:100%;
-	height: 100%;
+	background-color: #3049FF;
+	top: 0;
+	color: #fff;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 72%;
 	z-index:1000;
 }
 
@@ -323,99 +344,52 @@ hr {
 	-webkit-transition:opacity 0.25s;
 }
 
-#laptop-one h4 {
-	font-family: Pacifico;
-	color: #FFFFFF;
-	font-size: 30px;
-	margin-top: 70px;
-	margin-bottom: 40px;
-}
-
-#laptop-two h4 {
-	font-family: Merriweather;
-	color: #FFFFFF;
-	font-size: 30px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-#laptop-three h4 {
-	font-family: Pacifico;
-	color: #FFFFFF;
-	font-size: 30px;
-	margin-top: 62px;
-	margin-bottom: 40px;
-}
-
-#laptop-four h4 {
-	font-family: Josefin Slab;
-	color: #FFFFFF;
-	font-size: 28px;
-	margin-top: 35px;
-	margin-bottom: 40px;
-}
-
-#laptop-five h4 {
-	font-family: Amatic SC;
-	color: #FFFFFF;
-	font-size: 40px;
-	margin-top: 50px;
-	margin-bottom: 40px;
-}
-
-#laptop-six h4 {
-	font-family: Raleway;
-	color: #FFFFFF;
-	font-size: 30px;
-	margin-top: 60px;
-	margin-bottom: 40px;
-}
-
-#laptop-seven h4 {
-	font-family: Grand Hotel;
-	color: #FFFFFF;
-	font-size: 40px;
-	margin-top: 50px;
-	margin-bottom: 40px;
-}
-
-#laptop-eight h4 {
-	font-family: Josefin Slab;
-	color: #FFFFFF;
-	font-size: 35px;
-	margin-top: 55px;
-	margin-bottom: 40px;
-}
-
-.img-wrap a {
+.img-overlay p {
 	font-family: Lato;
 	font-size: 20px;
 	border: 1px solid #FFFFFF;
 	color: #FFFFFF;
 	padding: 12px;
-	font-weight: 300;
+	font-weight: 500;
+	bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 120px;
+	width: 150px;
+	text-decoration: none;
+	position: relative;
 }
 
-.img-wrap a:hover {
+.img-overlay p:hover {
 	background-color: #FFFFFF;
-	color: #292929;
+	color: #3049FF;
 }
 
-.item li {
-	display: inline-block;
-}
-
-#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven, #laptop-eight {
-	margin-bottom: 10px;
-}
-
-.row a:link {
-	color: #FFFFFF;
+.img-wrap a:link {
+	color: #595959;
 	text-decoration: none;
 }
 
+.img-wrap a:visited { 
+	color: #595959; 
+	text-decoration: none;
+}
+
+.img-wrap a:hover { 
+	color: #595959; 
+	text-decoration: none;
+}
+
+.img-wrap a:active { 
+	color: #595959; 
+	text-decoration: none;
+}
+
+/* ------------------------------------- contact section --------------------------------------- */
+
 #contact {
 	position: relative;
+	text-align: center;
 }
 
 .contactChoices li {
@@ -437,6 +411,27 @@ hr {
 	clear: both;
 }
 
+/* --------------------------------------- footer section -------------------------------------- */
+
+footer {
+	background-color: #FFFFFF;
+	color: #595959;
+	height: 60px;
+	box-shadow: 0.5px 0px 1px #595959;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	z-index: 10000;
+}
+
+footer p {
+	font-weight: 300;
+	font-family: Lato;
+	padding-top: 23px;
+	font-size: 1em;
+}
+
 /* ---------------------------------------------------------------------------------------------
 media queries
 ----------------------------------------------------------------------------------------------*/
@@ -451,9 +446,7 @@ media queries
 	}
 
 	header {
-		height: 480px;
 		background: url("images/Query_Img.png");
-		background-repeat: no-repeat;
 		width: auto;
 		background-size: 250%;
 		background-position: -120px -50px;
@@ -461,10 +454,10 @@ media queries
 	}
 
 	#topLine {
-		padding-top: 160px;
-		width: 100%;
+		margin-top: 45px;
+		width: 95%;
 		color: #FFFFFF;
-		font-size: 3.375em;
+		font-size: 3.675em;
 	}
 
 	#secondLine {
@@ -505,7 +498,7 @@ media queries
 		display: block;
 		margin-right: auto;
 		margin-left: auto;
-		margin-bottom: 20px;
+		margin-bottom: 2px;
 	}
 
 	#mystory p {
@@ -515,12 +508,6 @@ media queries
 		font-size: 1.125em;
 		line-height: 2;
 		text-align: justify;
-	}
-
-	#laptop-one, #laptop-two, #laptop-three, #laptop-four, #laptop-five, #laptop-six, #laptop-seven {
-	margin-bottom: 10px;
-	margin-bottom: 20px;
-	margin-bottom: 20px;
 	}
 
 	.img-wrap {
@@ -545,77 +532,13 @@ media queries
 	}
 
 	.img-overlay {
-		background-color: #000;
+		background-color: #3049FF;
 		bottom: 0;
 		color: #fff;
-		opacity: 0.85;
+		opacity: 0;
 		position: absolute;
 		z-index: 1000;
-		display: block;
-	}
-
-	#laptop-one h4 {
-		font-family: Pacifico;
-		color: #FFFFFF;
-		font-size: 23px;
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-
-	#laptop-two h4 {
-		font-family: Merriweather;
-		color: #FFFFFF;
-		font-size: 23px;
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
-
-	#laptop-three h4 {
-		font-family: Pacifico;
-		color: #FFFFFF;
-		font-size: 23px;
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-
-	#laptop-four h4 {
-		font-family: Josefin Slab;
-		color: #FFFFFF;
-		font-size: 18px;
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-
-	#laptop-five h4 {
-		font-family: Amatic SC;
-		color: #FFFFFF;
-		font-size: 33px;
-		margin-top: 30px;
-		margin-bottom: 40px;
-	}
-
-	#laptop-six h4 {
-		font-family: Raleway;
-		color: #FFFFFF;
-		font-size: 23px;
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-
-	#laptop-seven h4 {
-		font-family: Grand Hotel;
-		color: #FFFFFF;
-		font-size: 33px;
-		margin-top: 30px;
-		margin-bottom: 40px;
-	}
-
-	#laptop-eight h4 {
-		font-family: Josefin Slab;
-		color: #FFFFFF;
-		font-size: 28px;
-		margin-top: 35px;
-		margin-bottom: 40px;
+		display: none;
 	}
 
 	.img-wrap a {
@@ -626,9 +549,22 @@ media queries
 		padding: 12px;
 		font-weight: 300;
 	}
+
+	#mystory p {
+		text-align: justify;
+	}
+
+	#summer video {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		z-index: -100;
+		background-size: cover;
+		display: none;
+	}
 }
 
-@media only screen and (max-width : 768px) { /*second media query*/
+@media only screen and (max-width : 875px) { /*second media query*/
 	.menuBar p {
 		font-family: Josefin Slab;
 		font-weight: 300;
@@ -656,57 +592,46 @@ media queries
 		right: 25px;
 		top: 20px;
 	}
+
 	#topLine {
 		padding-top: 3em;
+		width: 95%;
+	}
+
+	.myStoryContent {
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.myStoryContent img {
+		width: 85%;
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		float: none;
+		padding-bottom: 20px;
+	}
+
+	.myStoryContent p {
+		font-family: Lato;
+		font-weight: 300;
+		color: #595959;
+		font-size: 1em;
+		line-height: 2;
+		text-align: justify;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		width: 85%;
+		float: none;
 	}
 }
 
 @media only screen and (max-width : 1024px) { /*third media query*/
-	#summer video {
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		width: auto;
-		min-width: 100%;
-		top: 0px;
-		height: 400px;
-		min-height: 80%;
-		z-index: -100;
-		background-size: cover;
-		display: none;
-	}
 
-	header{
-		background: url("images/Query_Img_3.png");
-		background-repeat: no-repeat;
-	}
-
-	.img-wrap {
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		width: 290px;
-		overflow: hidden;
-	}	
-
-	.img-overlay {
-		background-color: #000;
-		bottom: 0;
-		color: #fff;
-		opacity: 0.85;
-		position: absolute;
-		z-index: 1000;
-		display: block;
-	}
-
-	.img-wrap a {
-		font-family: Lato;
-		font-size: 14px;
-		border: 1px solid #FFFFFF;
-		color: #FFFFFF;
-		padding: 12px;
-		font-weight: 300;
-	}
 }
 
 

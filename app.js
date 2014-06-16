@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     if ($(".item img").css("width") === "375px") { //largest screen
         var headerTop = $('header').offset().top;
-        var headerBottom = headerTop + 590; // Sub-menu should appear after this distance from top.
+        var headerBottom = (headerTop + 590); // Sub-menu should appear after this distance from top.
         $(window).scroll(function () {
             var scrollTop = ($(window).scrollTop()); // Current vertical scroll position from the top
             if (scrollTop > headerBottom) { // Check to see if we have scrolled more than headerBottom
@@ -36,12 +36,10 @@ $(document).ready(function() {
     };
 
     $(".menuBar img").on("click", function() {
-        console.log("test");
         $(".dropDown").toggle();
     });
 
     $(".dropDown a").on("click", function() {
-        console.log("hide test");
         $(".dropDown").hide();
     });
 

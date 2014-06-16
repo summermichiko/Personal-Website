@@ -18,8 +18,8 @@
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
-		<nav class="navigation">
-			<div class="menuBar">
+		<div class="menuBar">
+			<div class="menuBarText">
 				<p><a href="#summer" class="navscroll">SUMMER MCDONALD</a></p>
 				<img src="images/hamburger_icon.png">
 				<ul>
@@ -28,99 +28,133 @@
 					<li><a href="#mystory" class="navscroll">ABOUT ME</a></li>
 				</ul>
 			</div>
-			<ul class="dropDown">
-				<li><a href="#mystory" class="navscroll">ABOUT ME</a></li>
-				<li><a href="#portfolio" class="navscroll">PORTFOLIO</a></li>
-				<li><a href="#contact" class="navscroll">GET IN TOUCH</a></li>
-			</ul>
-		</nav>
+		</div>
+		<ul class="dropDown">
+			<li><a href="#mystory" class="navscroll">ABOUT ME</a></li>
+			<li><a href="#portfolio" class="navscroll">PORTFOLIO</a></li>
+			<li><a href="#contact" class="navscroll">GET IN TOUCH</a></li>
+		</ul>
 		<header id="summer">
 			<video autoplay loop id="topVids">
 				<source src="videos/Top_Video.mp4" type="video/mp4">
 				<source src="videos/Top_Video.mp4" type="video/mp4" alt="images/alternate_pic.png">
-			</video>
-			<h1 id="topLine">summer mcdonald</h1>
-			<h1 id="secondLine">a web developer from Hawai`i</h1>
-			<div id="learnmoresec">
+			</video>	
+			<div class="videoText">
+				<h1 id="topLine">summer mcdonald</h1>
+				<h1 id="secondLine">a web developer from Hawai`i</h1>
+				<div id="learnmoresec">
+			</div>
 			<a href="#mystory" class="navscroll bar">
 				<div class="bounce">
 					<img src="images/arrow.png">
 				</div>
 			</a>
 		</header>
-		<section id="mystory" class="contentsec">
+		<div>
+		<section id="mystory">
 			<h2>ABOUT ME</h2>
 			<hr />
-			<img src="images/My_Story_2.png">
-			<p>Hi! I’m Summer, a front-end web developer hailed from Pauoa Valley, Oahu who loves designing thoughtful experiences with pixels and code. In addition to building really good looking interfaces, I love chubby pugs, thin-lined tats, and Chocolate Teddy Grahams. Check out my portfolio, and don’t forget to say hello!</p>
-		</section>
-		<section id="portfolio" class="contentsec group">
-		<h2>PORTFOLIO</h2>
-			<hr />
-			<div class="portpics group">
-				<div class="laptop">
-					<ul class="item row">
-						<li id="laptop-one" class="img-wrap">								
-							<img src="images/Small_Business_Landing_Page.png" />
-							<div class="img-overlay">
-								<h4>Branch Studios</h4>
-								<a href="http://summermichiko.github.io/Small-Business-Landing-Page" target="_blank">View Project</a>
-							</div>
-						</li>
-						<li id="laptop-two" class="img-wrap">								
-							<img src="images/Thinkful_Mentor_Training_Guide.png"/>
-							<div class="img-overlay">
-								<h4>Thinkful Mentor Training Guide</h4>
-								<a href="http://summermichiko.github.io/Thinkful-Mentor-Training-Guide" target="_blank">View Project</a>
-							</div>
-						</li>
-						<li id="laptop-three" class="img-wrap">								
-							<img src="images/Shopping_List.png"/>
-							<div class="img-overlay">
-								<h4>Shopping List App</h4>
-								<a href="http://summermichiko.github.io/Shopping-List-App" target="_blank">View Project</a>
-							</div>
-						</li>
-						<li id="laptop-four" class="img-wrap">								
-							<img src="images/API_Hack.png"/>
-							<div class="img-overlay">
-								<h4>INSTAGRAM QUICK SEARCH</h4>
-								<a href="http://summermichiko.github.io/API-Hack-Project" target="_blank">View Project</a>
-							</div>
-						</li>
-						<li id="laptop-five" class="img-wrap">								
-							<img src="images/Kamaaina_Quiz.png"/>
-							<div class="img-overlay">
-								<h4>Kama`aina Quiz App</h4>
-								<a href="http://summermichiko.github.io/Hawaii-Quiz-App" target="_blank">View Project</a>
-							</div>
-						</li>
-						<li id="laptop-six" class="img-wrap">								
-							<img src="images/Hot_Cold.png"/>
-							<div class="img-overlay">
-								<h4>Hot or Cold Game</h4>
-								<a href="http://summermichiko.github.io/Hot-or-Cold-App" target="_blank">View Project</a>
-							</div>
-						</li>
-						<li id="laptop-seven" class="img-wrap">								
-							<img src="images/Fizz_Buzz.png"/>
-							<div class="img-overlay">
-								<h4>Fizz Buzz GUI</h4>
-								<a href="http://summermichiko.github.io/FizzBuzz" target="_blank">View Project</a>
-							</div>
-						</li>
-						<li id="laptop-eight" class="img-wrap">								
-							<img src="images/Personal_Website.png"/>
-							<div class="img-overlay">
-								<h4>Personal Website</h4>
-								<a href="http://summermcdonald.me" target="_blank">View Project</a>
-							</div>
-						</li>
-					</ul>
-				</div>
+			<div class="myStoryContent">
+				<p>Hi! I’m Summer, a front-end web developer hailed from Pauoa Valley, Oahu who loves designing thoughtful experiences with pixels and code. In addition to building really good looking interfaces, I love chubby pugs, fine-lined tats, and Chocolate Teddy Grahams. Check out my portfolio, and don’t forget to say hello!</p>
 			</div>
 		</section>
-		<section id="contact" class="contentsec">
+		<section class="group" id="portfolio">
+			<h2>PORTFOLIO</h2>
+			<hr />
+			<div class="group">
+				<ul class="item">
+
+					<li class="img-wrap">
+						<a href="http://summermichiko.github.io/Small-Business-Landing-Page" target="_blank">						
+							<img src="images/Small_Business_Landing_Page2.png" />
+							<p>Branch Studios Hawaii</p>
+						</a>
+						<div class="img-overlay">
+							<a href="http://summermichiko.github.io/Small-Business-Landing-Page" target="_blank">						
+								<p>View Project</p>
+							</a>
+						</div>
+					</li>
+
+					<li class="img-wrap">
+						<a href="http://summermichiko.github.io/Thinkful-Mentor-Training-Guide" target="_blank">								
+							<img src="images/Thinkful_Mentor_Training_Guide2.png"/>
+							<p>Thinkful Mentor Training Guide</p>
+						</a>
+						<div class="img-overlay">
+							<a href="http://summermichiko.github.io/Thinkful-Mentor-Training-Guide" target="_blank">
+							<p>View Project</p>
+						</div>
+					</li>
+
+					<li class="img-wrap">								
+						<a href="http://summermichiko.github.io/Shopping-List-App" target="_blank">
+							<img src="images/Shopping_List2.png"/>
+							<p>Shopping List App</p>
+						</a>
+						<div class="img-overlay">
+							<a href="http://summermichiko.github.io/Shopping-List-App" target="_blank">
+							<p>View Project</p>
+						</div>
+					</li>
+
+					<li class="img-wrap">	
+						<a href="http://summermichiko.github.io/API-Hack-Project" target="_blank">							
+							<img src="images/API_Hack2.png"/>
+							<p>Instagram Search</p>
+						<div class="img-overlay">	
+							<a href="http://summermichiko.github.io/API-Hack-Project" target="_blank">
+							<p>View Project</p>
+						</div>
+					</li>
+
+					<li class="img-wrap">	
+						<a href="http://summermichiko.github.io/Hawaii-Quiz-App" target="_blank">						
+							<img src="images/Kamaaina_Quiz2.png"/>
+							<p>Kama`aina Quiz App</p>
+						<div class="img-overlay">
+							<a href="http://summermichiko.github.io/Hawaii-Quiz-App" target="_blank">
+							<p>View Project</p>
+						</div>
+					</li>
+
+					<li class="img-wrap">
+						<a href="http://summermichiko.github.io/Hot-or-Cold-App" target="_blank">							
+							<img src="images/Hot_Cold2.png"/>
+							<p>Hot or Cold Game</p>
+						<div class="img-overlay">
+							<a href="http://summermichiko.github.io/Hot-or-Cold-App" target="_blank">
+							<p>View Project</p>
+						</div>
+					</li>
+
+					<li class="img-wrap">
+						<a href="http://summermichiko.github.io/FizzBuzz" target="_blank">							
+							<img src="images/Fizz_Buzz2.png"/>
+							<p>Fizz Buzz GUI</p>
+						<div class="img-overlay">
+							<a href="http://summermichiko.github.io/Fizz-Buzz" target="_blank">
+							<p>View Project</p>
+						</div>
+					</li>
+
+					<li class="img-wrap">	
+						<a href="http://summermcdonald.me" target="_blank">						
+							<img src="images/Personal_Website2.png"/>
+							<p>Personal Website</p>
+						<div class="img-overlay">
+							<a href="http://summermcdonald.me" target="_blank">
+							<p>View Project</p>
+						</div>
+					</li>
+
+					<li class="img-wrap">
+					</li>
+
+				</ul>
+			</div>
+		</section>
+		<section id="contact">
 			<h2>GET IN TOUCH</h2>
 			<hr />
 			<ul class="contactChoices">
@@ -130,6 +164,9 @@
 				<li><a href="https://github.com/summermichiko" target="_blank"><img src="images/github_icon.png"></a></li>
 			</ul>
 		</section>
+		<footer>
+			<p>2014 © SUMMER MCDONALD</p>
+		</footer>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type="text/javascript" src="app.js"></script>
 		<meta id="testViewport" name="viewport" content="width=device-width, maximum-scale=1">
