@@ -290,7 +290,7 @@ hr {
 	color: #595959;
 	font-size: 1.1em;
 	line-height: 1.8;
-	text-align: justify;
+	text-align: center;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -641,28 +641,12 @@ media queries
 		height: 260px;
 	}
 	#topLine {
-		font-family: Josefin Slab;
 		font-size: 2.375em;
-		color: #FFFFFF;
-		margin-left: auto;
-		margin-right: auto;
 		padding-top: 2.5em;
-		text-align: center;
-		z-index: 100;
-		text-transform: uppercase;
 	}
 
 	#secondLine {
-		font-family: Lato;
 		font-size: 1.2em;
-		width: 41.379310344827586%;
-		color: #FFFFFF;
-		text-align: center;
-		margin-right: auto;
-		margin-left: auto;
-		font-weight: 200;
-		margin-top: -0.515em;
-		z-index: 100;
 	}
 }
 
@@ -672,28 +656,12 @@ media queries
 		height: 310px;
 	}
 	#topLine {
-		font-family: Josefin Slab;
 		font-size: 2.375em;
-		color: #FFFFFF;
-		margin-left: auto;
-		margin-right: auto;
 		padding-top: 3.7em;
-		text-align: center;
-		z-index: 100;
-		text-transform: uppercase;
 	}
 
 	#secondLine {
-		font-family: Lato;
 		font-size: 1.2em;
-		width: 41.379310344827586%;
-		color: #FFFFFF;
-		text-align: center;
-		margin-right: auto;
-		margin-left: auto;
-		font-weight: 200;
-		margin-top: -0.515em;
-		z-index: 100;
 	}
 }
 
@@ -703,28 +671,12 @@ media queries
 		height: 360px;
 	}
 	#topLine {
-		font-family: Josefin Slab;
 		font-size: 2.375em;
-		color: #FFFFFF;
-		margin-left: auto;
-		margin-right: auto;
 		padding-top: 3.7em;
-		text-align: center;
-		z-index: 100;
-		text-transform: uppercase;
 	}
 
 	#secondLine {
-		font-family: Lato;
 		font-size: 1.2em;
-		width: 41.379310344827586%;
-		color: #FFFFFF;
-		text-align: center;
-		margin-right: auto;
-		margin-left: auto;
-		font-weight: 200;
-		margin-top: -0.515em;
-		z-index: 100;
 	}
 }
 
@@ -734,28 +686,12 @@ media queries
 		height: 410px;
 	}
 	#topLine {
-		font-family: Josefin Slab;
 		font-size: 2.775em;
-		color: #FFFFFF;
-		margin-left: auto;
-		margin-right: auto;
 		padding-top: 3.6em;
-		text-align: center;
-		z-index: 100;
-		text-transform: uppercase;
 	}
 
 	#secondLine {
-		font-family: Lato;
 		font-size: 1.2em;
-		width: 41.379310344827586%;
-		color: #FFFFFF;
-		text-align: center;
-		margin-right: auto;
-		margin-left: auto;
-		font-weight: 200;
-		margin-top: -0.515em;
-		z-index: 100;
 	}
 }
 
@@ -765,28 +701,12 @@ media queries
 		height: 470px;
 	}
 	#topLine {
-		font-family: Josefin Slab;
 		font-size: 3.7em;
-		color: #FFFFFF;
-		margin-left: auto;
-		margin-right: auto;
 		padding-top: 3.em;
-		text-align: center;
-		z-index: 100;
-		text-transform: uppercase;
 	}
 
 	#secondLine {
-		font-family: Lato;
 		font-size: 1.4em;
-		width: 41.379310344827586%;
-		color: #FFFFFF;
-		text-align: center;
-		margin-right: auto;
-		margin-left: auto;
-		font-weight: 200;
-		margin-top: -0.515em;
-		z-index: 100;
 	}
 }
 
@@ -796,28 +716,12 @@ media queries
 		height: 510px;		
 	}
 	#topLine {
-		font-family: Josefin Slab;
 		font-size: 3.9em;
-		color: #FFFFFF;
-		margin-left: auto;
-		margin-right: auto;
 		padding-top: 4em;
-		text-align: center;
-		z-index: 100;
-		text-transform: uppercase;
 	}
 
 	#secondLine {
-		font-family: Lato;
-		font-size: 1.2em;
-		width: 41.379310344827586%;
-		color: #FFFFFF;
-		text-align: center;
-		margin-right: auto;
-		margin-left: auto;
-		font-weight: 200;
-		margin-top: -0.515em;
-		z-index: 100;
+		font-size: 1.4em;
 	}
 }
 
@@ -826,12 +730,18 @@ media queries
 		width: auto;
 		height: 550px;
 	}
+	#secondLine {
+		font-size: 1.4em;
+	}
 }
 
 @media only screen and (min-width : 1050px) {
 	#summer {
 		width: auto;
 		margin-bottom: 100px;
+	}
+	#secondLine {
+		font-size: 1.4em;
 	}
 }
 
@@ -840,12 +750,18 @@ media queries
 		width: auto;
 		margin-bottom: 120px;
 	}
+	#secondLine {
+		font-size: 1.4em;
+	}
 }
 
 @media only screen and (min-width : 1150px) {
 	#summer {
 		width: auto;
 		margin-bottom: 140px;
+	}
+	#secondLine {
+		font-size: 1.4em;
 	}
 }
 
@@ -854,47 +770,80 @@ media queries
 		width: auto;
 		margin-bottom: 180px;
 	}
+	#secondLine {
+		font-size: 1.4em;
+	}
 }
 
 @media only screen and (min-width : 1250px) {
 	#summer {
 		width: auto;
-		margin-bottom: 200px;
+		margin-bottom: 210px;
+	}
+	#secondLine {
+		font-size: 1.4em;
 	}
 }
 
 @media only screen and (min-width : 1300px) {
 	#summer {
 		width: auto;
-		margin-bottom: 220px;
+		margin-bottom: 260px;
+	}
+	#secondLine {
+		font-size: 1.4em;
 	}
 }
 
 @media only screen and (min-width : 1350px) {
 	#summer {
 		width: auto;
-		margin-bottom: 240px;
+		margin-bottom: 310px;
+	}
+	#secondLine {
+		font-size: 1.4em;
 	}
 }
 
 @media only screen and (min-width : 1450px) {
 	#summer {
 		width: auto;
-		margin-bottom: 270px;
+		margin-bottom: 330px;
+	}
+	#topLine {
+		font-size: 3.9em;
+		padding-top: 5.5em;
+	}
+	#secondLine {
+		font-size: 1.4em;
 	}
 }
 
 @media only screen and (min-width : 1500px) {
 	#summer {
 		width: auto;
-		margin-bottom: 300px;
+		margin-bottom: 350px;
+	}
+	#topLine {
+		font-size: 3.9em;
+		padding-top: 5.5em;
+	}
+	#secondLine {
+		font-size: 1.4em;
 	}
 }
 
 @media only screen and (min-width : 1600px) {
 	#summer {
 		width: auto;
-		margin-bottom: 350px;
+		margin-bottom: 380px;
+	}
+	#topLine {
+		font-size: 3.9em;
+		padding-top: 5.5em;
+	}
+	#secondLine {
+		font-size: 1.4em;
 	}
 }
 
