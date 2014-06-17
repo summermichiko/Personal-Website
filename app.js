@@ -18,6 +18,7 @@ $(document).ready(function() {
                 $(".menuBar").fadeIn();
             } else {
                 $(".menuBar").fadeOut();
+                $(".dropDown").fadeOut();
             }
         });
     };
@@ -31,6 +32,7 @@ $(document).ready(function() {
                 $(".menuBar").fadeIn();
             } else {
                 $(".menuBar").fadeOut();
+                $(".dropDown").fadeOut();
             }
         });
     };
@@ -42,10 +44,6 @@ $(document).ready(function() {
     $(".dropDown a").on("click", function() {
         $(".dropDown").hide();
     });
-
-    /*if ($(".menuBar").css("display") === "none") {
-        $(".dropDown").hide();
-    };*/
 
     /*if ($(".menuBar").css("display") === "none") { //smallest screen
         var headerTop = $('header').offset().top;
