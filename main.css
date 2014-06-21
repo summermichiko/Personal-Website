@@ -460,7 +460,7 @@ media queries
 	}
 
 	#topLine {
-		margin-top: 45px;
+		margin-top: 85px;
 		width: 95%;
 		color: #FFFFFF;
 		font-size: 3.675em;
@@ -599,11 +599,6 @@ media queries
 		top: 20px;
 	}
 
-	#topLine {
-		padding-top: 3em;
-		width: 95%;
-	}
-
 	.myStoryContent {
 		position: relative;
 		display: block;
@@ -643,7 +638,7 @@ media queries
 	}
 	#topLine {
 		font-size: 2.375em;
-		padding-top: 2.5em;
+		padding-top: 4.5em;
 	}
 
 	#secondLine {
@@ -658,7 +653,7 @@ media queries
 	}
 	#topLine {
 		font-size: 2.375em;
-		padding-top: 3.7em;
+		padding-top: 4.9em;
 	}
 
 	#secondLine {
@@ -673,7 +668,7 @@ media queries
 	}
 	#topLine {
 		font-size: 2.375em;
-		padding-top: 3.7em;
+		padding-top: 5.3em;
 	}
 
 	#secondLine {
@@ -688,7 +683,7 @@ media queries
 	}
 	#topLine {
 		font-size: 2.775em;
-		padding-top: 3.6em;
+		padding-top: 5.3em;
 	}
 
 	#secondLine {
@@ -703,7 +698,7 @@ media queries
 	}
 	#topLine {
 		font-size: 3.7em;
-		padding-top: 3.em;
+		padding-top: 4.3em;
 	}
 
 	#secondLine {
@@ -716,9 +711,10 @@ media queries
 		width: auto;
 		height: 590px;		
 	}
+
 	#topLine {
 		font-size: 3.9em;
-		padding-top: 4em;
+		padding-top: 4.2em;
 	}
 
 	#secondLine {
@@ -731,6 +727,12 @@ media queries
 		width: auto;
 		height: 660px;
 	}
+
+	#topLine {
+		font-size: 3.9em;
+		padding-top: 5em;
+	}
+
 	#secondLine {
 		font-size: 1.4em;
 	}
@@ -741,6 +743,12 @@ media queries
 		width: auto;
 		margin-bottom: 140px;
 	}
+
+	#topLine {
+		font-size: 3.9em;
+		padding-top: 5.2em;
+	}
+
 	#secondLine {
 		font-size: 1.4em;
 	}
@@ -751,6 +759,12 @@ media queries
 		width: auto;
 		margin-bottom: 150px;
 	}
+
+	#topLine {
+		font-size: 3.9em;
+		padding-top: 5.4em;
+	}
+
 	#secondLine {
 		font-size: 1.4em;
 	}
