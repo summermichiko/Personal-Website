@@ -111,12 +111,12 @@ body {
 	height: 60px;
 	box-shadow: 0px 0.5px 1px #888888;
 	position: fixed;
+	top: 0;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 	z-index: 10000;
-	display: none;
 }
 
 .menuBarText {
