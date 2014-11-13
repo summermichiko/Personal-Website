@@ -7,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -18,8 +18,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -40,7 +41,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}	
+}
 
 body {
 	font-size: 16px;
@@ -105,18 +106,18 @@ body {
 	width: auto;
 	padding: 5px;
 }
-
 .menuBar {
 	background-color: #FFFFFF;
 	color: #595959;
 	height: 60px;
 	box-shadow: 0px 0.5px 1px #888888;
-	position: fixed;
 	top: 0;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+  position: fixed;
+  -webkit-transform: translateZ(0)
 	z-index: 10000;
 }
 
@@ -190,18 +191,18 @@ body {
 	text-decoration: none;
 }
 
-#learnmoresec a:visited { 
-	color: #595959; 
+#learnmoresec a:visited {
+	color: #595959;
 	text-decoration: none;
 }
 
-#learnmoresec a:hover { 
-	color: #595959; 
+#learnmoresec a:hover {
+	color: #595959;
 	text-decoration: none;
 }
 
-#learnmoresec a:active { 
-	color: #595959; 
+#learnmoresec a:active {
+	color: #595959;
 	text-decoration: none;
 }
 
@@ -210,18 +211,18 @@ body {
 	text-decoration: none;
 }
 
-.menuBar a:visited { 
-	color: #595959; 
+.menuBar a:visited {
+	color: #595959;
 	text-decoration: none;
 }
 
-.menuBar a:hover { 
-	color: #595959; 
+.menuBar a:hover {
+	color: #595959;
 	text-decoration: none;
 }
 
-.menuBar a:active { 
-	color: #595959; 
+.menuBar a:active {
+	color: #595959;
 	text-decoration: none;
 }
 
@@ -230,18 +231,18 @@ body {
 	text-decoration: none;
 }
 
-.dropDown a:visited { 
-	color: #595959; 
+.dropDown a:visited {
+	color: #595959;
 	text-decoration: none;
 }
 
-.dropDown a:hover { 
-	color: #595959; 
+.dropDown a:hover {
+	color: #595959;
 	text-decoration: none;
 }
 
-.dropDown a:active { 
-	color: #595959; 
+.dropDown a:active {
+	color: #595959;
 	text-decoration: none;
 }
 
@@ -314,7 +315,7 @@ hr {
 .img-wrap { /* each li */
 	width: 375px;
 	position: relative;
-	overflow: hidden; 
+	overflow: hidden;
 }
 
 .img-wrap img {
@@ -375,18 +376,18 @@ hr {
 	text-decoration: none;
 }
 
-.img-wrap a:visited { 
-	color: #595959; 
+.img-wrap a:visited {
+	color: #595959;
 	text-decoration: none;
 }
 
-.img-wrap a:hover { 
-	color: #595959; 
+.img-wrap a:hover {
+	color: #595959;
 	text-decoration: none;
 }
 
-.img-wrap a:active { 
-	color: #595959; 
+.img-wrap a:active {
+	color: #595959;
 	text-decoration: none;
 }
 
@@ -522,7 +523,7 @@ media queries
 		position: relative;
 		width: 100%;
 		overflow: hidden;
-	}	
+	}
 
 	.item img {
 		margin-left: auto;
@@ -709,7 +710,7 @@ media queries
 @media only screen and (min-width : 900px) {
 	#summer {
 		width: auto;
-		height: 590px;		
+		height: 590px;
 	}
 
 	#topLine {
