@@ -863,6 +863,62 @@ media queries
 	}
 }
 
+@media only screen and (min-width : 1700px) {
+  #summer {
+    width: auto;
+    margin-bottom: 470px;
+  }
+  #topLine {
+    font-size: 3.9em;
+    padding-top: 5.5em;
+  }
+  #secondLine {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width : 1900px) {
+  #summer {
+    width: auto;
+    margin-bottom: 570px;
+  }
+  #topLine {
+    font-size: 3.9em;
+    padding-top: 5.5em;
+  }
+  #secondLine {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width : 2100px) {
+  #summer {
+    width: auto;
+    margin-bottom: 630px;
+  }
+  #topLine {
+    font-size: 3.9em;
+    padding-top: 5.5em;
+  }
+  #secondLine {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width : 2300px) {
+  #summer {
+    width: auto;
+    margin-bottom: 690px;
+  }
+  #topLine {
+    font-size: 3.9em;
+    padding-top: 5.5em;
+  }
+  #secondLine {
+    font-size: 1.4em;
+  }
+}
+
 
 
 
