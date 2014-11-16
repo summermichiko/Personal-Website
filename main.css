@@ -894,7 +894,7 @@ media queries
 @media only screen and (min-width : 2100px) {
   #summer {
     width: auto;
-    margin-bottom: 630px;
+    margin-bottom: 670px;
   }
   #topLine {
     font-size: 3.9em;
@@ -908,7 +908,7 @@ media queries
 @media only screen and (min-width : 2300px) {
   #summer {
     width: auto;
-    margin-bottom: 690px;
+    margin-bottom: 760px;
   }
   #topLine {
     font-size: 3.9em;
@@ -919,6 +919,33 @@ media queries
   }
 }
 
+@media only screen and (min-width : 2450px) {
+  #summer {
+    width: auto;
+    margin-bottom: 870px;
+  }
+  #topLine {
+    font-size: 3.9em;
+    padding-top: 5.5em;
+  }
+  #secondLine {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width : 2600px) {
+  #summer {
+    width: auto;
+    margin-bottom: 950px;
+  }
+  #topLine {
+    font-size: 3.9em;
+    padding-top: 5.5em;
+  }
+  #secondLine {
+    font-size: 1.4em;
+  }
+}
 
 
 
