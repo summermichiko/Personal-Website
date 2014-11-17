@@ -9,13 +9,13 @@ $(document).ready(function() {
     	});
 	});
 
-//     $(".menuBar img").on("click", function() {
-//         $(".dropDown").toggle();
-//     });
+    $(".menuBar img").on("click", function() {
+        $(".dropDown").toggle();
+    });
 
-//     $(".dropDown a").on("click", function() {
-//         $(".dropDown").hide();
-//     });
+    $(".dropDown a").on("click", function() {
+        $(".dropDown").hide();
+    });
 
     /*if ($(".menuBar").css("display") === "none") { //smallest screen
         var headerTop = $('header').offset().top;
