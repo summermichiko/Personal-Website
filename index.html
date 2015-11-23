@@ -5,20 +5,12 @@
 		<title>Summer McDonald | Web Developer</title>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" href="main.css" media="screen">
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
-		<link rel=”shortcut icon” href=”http://www.mysites.com/favicon.ico” type=”image/icon”>
-		<link rel=”icon” href=”http://www.mysites.com/favicon.ico” type=”image/icon”>
-		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
-    <div class="menuBar">
+		<div class="menuBar">
 			<div class="menuBarText">
 				<p><a href="#summer" class="navscroll">SUMMER MCDONALD</a></p>
 				<img src="images/hamburger_icon.png">
@@ -28,19 +20,23 @@
 					<li><a href="#mystory" class="navscroll">ABOUT ME</a></li>
 				</ul>
 			</div>
-    </div>
+		</div>
 		<ul class="dropDown">
 			<li><a href="#mystory" class="navscroll">ABOUT ME</a></li>
 			<li><a href="#portfolio" class="navscroll">PORTFOLIO</a></li>
 			<li><a href="#contact" class="navscroll">GET IN TOUCH</a></li>
 		</ul>
 		<header id="summer">
+			<script>
+				var videoHeight = $(window).height();
+				document.write('<div>')
+			</script>
 			<video autoplay loop id="topVids">
-				<source src="videos/Top_Video.mp4" type="video/mp4" alt="images/alternate_pic.png">
-        <source src="videos/Top_Video.webm" type="video/webm" alt="images/alternate_pic.png">
+				<source src="videos/summer_hero_compressed.mp4" type="video/mp4" alt="images/alternate_pic.png">
+				<source src="videos/Top_Video.webm" type="video/webm" alt="images/alternate_pic.png">
 			</video>
 			<div class="videoText">
-				<h1 id="topLine">summer mcdonald</h1>
+				<h1 id="topLine">Hi, I'm Summer!</h1>
 				<h1 id="secondLine">a web developer from Hawai`i</h1>
 				<div id="learnmoresec">
 			</div>
@@ -50,133 +46,78 @@
 				</div>
 			</a>
 		</header>
-		<div>
 		<section id="mystory">
 			<h2>ABOUT ME</h2>
 			<hr />
 			<div class="myStoryContent">
-				<p>Hi! I’m Summer, a web developer from Pauoa Valley, Oahu who loves designing thoughtful experiences with pixels and code. In addition to building good looking web apps, I love chubby pugs, fine-lined tats, and Chocolate Teddy Grahams. Check out my portfolio, and don’t forget to say hello!</p>
+				<p class="myStoryText">Hi! I’m Summer, a web developer from Pauoa Valley, Oahu who loves designing thoughtful experiences with pixels and code. In addition to building good looking web apps, I love chubby pugs, fine-lined tats, and Chocolate Teddy Grahams. Check out my portfolio, and don’t forget to say hello!</p>
 			</div>
 		</section>
-		<section class="group" id="portfolio">
+		<section class="group" id="portfolio" style="background-color: #f5f5f5; padding-top: 10px; padding-bottom: 50px;">
 			<h2>PORTFOLIO</h2>
 			<hr />
 			<div class="group">
 				<ul class="item">
-
-        <li class="img-wrap">
-          <a href="http://teamflock.herokuapp.com" target="_blank">
-            <img src="images/flock.png"/>
-            <p>Flock</p>
-            <div class="img-overlay">
-              <p>View Project</p>
-            </div>
-          </a>
-        </li>
-
-        <li class="img-wrap">
-          <a href="http://www.butterbean.io" target="_blank">
-            <img src="images/butterbean.png"/>
-            <p>Butterbean</p>
-            <div class="img-overlay">
-              <p>View Project</p>
-            </div>
-          </a>
-        </li>
-
-					<li class="img-wrap">
-						<a href="http://summermichiko.github.io/Small-Business-Landing-Page" target="_blank">
-							<img src="images/Small_Business_Landing_Page2.png" />
-							<p>Branch Studios Hawaii</p>
-							<div class="img-overlay">
-								<p>View Project</p>
-							</div>
-						</a>
-					</li>
-
-					<li class="img-wrap">
-						<a href="http://summermichiko.github.io/Thinkful-Mentor-Training-Guide" target="_blank">
-							<img src="images/Thinkful_Mentor_Training_Guide2.png"/>
-							<p>Thinkful Mentor Training Guide</p>
-							<div class="img-overlay">
-								<p>View Project</p>
-							</div>
-						</a>
-					</li>
-
-					<li class="img-wrap">
+			        <li class="img-wrap">
+			          <a href="http://www.butterbean.io" target="_blank">
+			         <!--  <a href="butterbean.html"> -->
+			            <img src="images/butterbeanFrontFinal.png"/>
+			            <div class="nameHolder">
+			            	<h5>Butterbean</h5>
+			            	<p>Fullstack Javascript Development</p>
+			            </div>
+			          </a>
+			        </li>
+			        <li class="img-wrap">
+						<!-- <a href="shopping-list-app.html"> -->
 						<a href="http://summermichiko.github.io/Shopping-List-App" target="_blank">
-							<img src="images/Shopping_List2.png"/>
-							<p>Shopping List App</p>
-							<div class="img-overlay">
-								<p>View Project</p>
-							</div>
+							<img src="images/shoppingListFrontFinal.png"/>
+							<div class="nameHolder">
+				            	<h5>Shopping List</h5>
+				            	<p>Javascript, jQuery, HTML5, CSS3</p>
+				            </div>
 						</a>
 					</li>
-
 					<li class="img-wrap">
-						<a href="http://summermichiko.github.io/API-Hack-Project" target="_blank">
-							<img src="images/API_Hack2.png"/>
-							<p>Instagram Search</p>
-							<div class="img-overlay">
-								<p>View Project</p>
-							</div>
+						<!-- <a href="thinkful-mentor-training-guide.html"> -->
+						<a href="http://summermichiko.github.io/Thinkful-Mentor-Training-Guide" target="_blank">
+							<img src="images/thinkfulFrontFinal.png"/>
+							<div class="nameHolder">
+				            	<h5>Thinkful Mentor Training Guide</h5>
+				            	<p>Javascript, jQuery, HTML5, CSS3</p>
+				            </div>
 						</a>
 					</li>
-
 					<li class="img-wrap">
+						<!-- <a href="kamaaina-quiz.html"> -->
 						<a href="http://summermichiko.github.io/Hawaii-Quiz-App" target="_blank">
-							<img src="images/Kamaaina_Quiz2.png"/>
-							<p>Kama`aina Quiz App</p>
-							<div class="img-overlay">
-								<p>View Project</p>
-							</div>
+							<img src="images/kamaainaFrontFinal.png"/>
+							<div class="nameHolder">
+				            	<h5>Kama`aina Quiz</h5>
+				            	<p>Javascript, jQuery, HTML5, CSS3</p>
+				            </div>
 						</a>
 					</li>
-
+			        <li class="img-wrap">
+			          <!-- <a href="flock.html"> -->
+			          <a href="http://teamflock.herokuapp.com" target="_blank">
+			            <img src="images/flockFrontFinal.png"/>
+			            <div class="nameHolder">
+			            	<h5>Flock</h5>
+			            	<p>Fullstack Javascript Development</p>
+			            </div>
+			          </a>
+			        </li>
 					<li class="img-wrap">
+						<!-- <a href="hot-or-cold-game.html"> -->
 						<a href="http://summermichiko.github.io/Hot-or-Cold-App" target="_blank">
-							<img src="images/Hot_Cold2.png"/>
-							<p>Hot or Cold Game</p>
-							<div class="img-overlay">
-								<p>View Project</p>
-							</div>
+							<img src="images/hotcoldFrontFinal.png"/>
+							<div class="nameHolder">
+				            	<h5>Hot or Cold Game</h5>
+				            	<p>Javascript, jQuery, HTML5, CSS3</p>
+				            </div>
 						</a>
 					</li>
-
-					<li class="img-wrap">
-						<a href="http://summermichiko.github.io/FizzBuzz" target="_blank">
-							<img src="images/Fizz_Buzz2.png"/>
-							<p>Fizz Buzz GUI</p>
-							<div class="img-overlay">
-								<p>View Project</p>
-							</div>
-						</a>
-					</li>
-
-					<li class="img-wrap">
-						<a href="http://summermichiko.github.io/MadLibsAngular/" target="_blank">
-							<img src="images/MadLibs.png"/>
-							<p>MadLibs App</p>
-							<div class="img-overlay">
-								<p>View Project</p>
-							</div>
-						</a>
-					</li>
-
-					<li class="img-wrap">
-						<a href="http://summermcdonald.me" target="_blank">
-							<img src="images/personalWebsite.png"/>
-							<p>Personal Website</p>
-							<div class="img-overlay">
-								<p>View Project</p>
-							</div>
-						</a>
-					</li>
-
-					<li class="img-wrap">
-					</li>
-
 				</ul>
 			</div>
 		</section>
@@ -184,10 +125,18 @@
 			<h2>GET IN TOUCH</h2>
 			<hr />
 			<ul class="contactChoices">
-				<li><a href="mailto:hellosummermcdonald@gmail.com?" target="_blank"><img src="images/email_icon.png"></a></li>
-				<li><a href="https://www.linkedin.com/profile/view?id=297787710&trk=nav_responsive_tab_profile_pic" target="_blank"><img src="images/linkedin_icon.png"></a></li>
-				<li><a href="https://www.facebook.com/summer.mm.mcdonald" target="_blank"><img src="images/facebook_icon.png"></a></li>
-				<li><a href="https://github.com/summermichiko" target="_blank"><img src="images/github_icon.png"></a></li>
+				<li class="contactEmail">
+					<a href="mailto:hellosummermcdonald@gmail.com?" target="_blank"><img src="images/email.png"></a>
+				</li>
+				<li class="contactLinkedIn">
+					<a href="https://www.linkedin.com/profile/view?id=297787710&trk=nav_responsive_tab_profile_pic" target="_blank"><img src="images/linkedin.png"></a>
+				</li>
+				<li class="contactFacebook">
+					<a href="https://www.facebook.com/summer.mm.mcdonald" target="_blank"><img src="images/facebook.png"></a>
+				</li>
+				<li class="contactGithub">
+					<a href="https://github.com/summermichiko" target="_blank"><img src="images/github.png"></a>
+				</li>
 			</ul>
 		</section>
 		<footer>
@@ -209,10 +158,8 @@
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
 		  ga('create', 'UA-52980513-1', 'auto');
 		  ga('send', 'pageview');
-
 		</script>
 	</body>
 </html>
