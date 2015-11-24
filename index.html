@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
 		<title>Summer McDonald | Web Developer</title>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" href="main.css" media="screen">
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 	</head>
 	<body>
 		<div class="menuBar">
-			<div class="menuBarText">
-				<p><a href="#summer" class="navscroll">SUMMER MCDONALD</a></p>
-				<img src="images/hamburger_icon.png">
-				<ul>
-					<li><a href="#contact" class="navscroll">GET IN TOUCH</a></li>
-					<li><a href="#portfolio" class="navscroll">PORTFOLIO</a></li>
-					<li><a href="#mystory" class="navscroll">ABOUT ME</a></li>
-				</ul>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="#summer" class="nameHeader">SUMMER MCDONALD</a>
+						<img src="images/hamburger_icon.png">
+						<ul>
+							<li>
+								<a href="#contact" class="navscroll">GET IN TOUCH</a
+							</li>
+							<li class="portfolioLink">
+								<a href="#portfolio" class="navscroll">PORTFOLIO</a>
+							</li>
+							<li class="aboutLink">
+								<a href="#mystory" class="navscroll">ABOUT ME</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
-		<ul class="dropDown">
+		<ul class="responsiveDropDown">
 			<li><a href="#mystory" class="navscroll">ABOUT ME</a></li>
 			<li><a href="#portfolio" class="navscroll">PORTFOLIO</a></li>
 			<li><a href="#contact" class="navscroll">GET IN TOUCH</a></li>
 		</ul>
 		<header id="summer">
-			<script>
-				var videoHeight = $(window).height();
-				document.write('<div>')
-			</script>
-			<video autoplay loop id="topVids">
-				<source src="videos/summer_hero_compressed.mp4" type="video/mp4" alt="images/alternate_pic.png">
-				<source src="videos/Top_Video.webm" type="video/webm" alt="images/alternate_pic.png">
-			</video>
+			<div class="videoContainer">
+				<video autoplay loop id="topVids">
+					<source src="videos/summer_hero_compressed.mp4" type="video/mp4" alt="images/alternate_pic.png">
+					<source src="videos/Top_Video.webm" type="video/webm" alt="images/alternate_pic.png">
+				</video>
+			</div>
 			<div class="videoText">
 				<h1 id="topLine">Hi, I'm Summer!</h1>
-				<h1 id="secondLine">a web developer from Hawai`i</h1>
-				<div id="learnmoresec">
+				<h1 id="secondLine">A web developer from Hawai`i</h1>
 			</div>
 			<a href="#mystory" class="navscroll bar">
 				<div class="bounce">
@@ -47,100 +55,144 @@
 			</a>
 		</header>
 		<section id="mystory">
-			<h2>ABOUT ME</h2>
-			<hr />
-			<div class="myStoryContent">
-				<p class="myStoryText">Hi! I’m Summer, a web developer from Pauoa Valley, Oahu who loves designing thoughtful experiences with pixels and code. In addition to building good looking web apps, I love chubby pugs, fine-lined tats, and Chocolate Teddy Grahams. Check out my portfolio, and don’t forget to say hello!</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2>ABOUT ME</h2>
+						<hr />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="myStoryContent">
+							<p class="myStoryText">Hi! I’m Summer, a web developer from Pauoa Valley, Oahu who loves designing thoughtful experiences with pixels and code. In addition to building good looking web apps, I love chubby pugs, fine-lined tats, and Chocolate Teddy Grahams. Check out my portfolio, and don’t forget to say hello!</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
-		<section class="group" id="portfolio" style="background-color: #f5f5f5; padding-top: 10px; padding-bottom: 50px;">
-			<h2>PORTFOLIO</h2>
-			<hr />
-			<div class="group">
-				<ul class="item">
-			        <li class="img-wrap">
-			          <a href="http://www.butterbean.io" target="_blank">
-			         <!--  <a href="butterbean.html"> -->
-			            <img src="images/butterbeanFrontFinal.png"/>
-			            <div class="nameHolder">
-			            	<h5>Butterbean</h5>
-			            	<p>Fullstack Javascript Development</p>
-			            </div>
-			          </a>
-			        </li>
-			        <li class="img-wrap">
-						<!-- <a href="shopping-list-app.html"> -->
-						<a href="http://summermichiko.github.io/Shopping-List-App" target="_blank">
-							<img src="images/shoppingListFrontFInal.png"/>
-							<div class="nameHolder">
-				            	<h5>Shopping List</h5>
-				            	<p>Javascript, jQuery, HTML5, CSS3</p>
-				            </div>
-						</a>
-					</li>
-					<li class="img-wrap">
-						<!-- <a href="thinkful-mentor-training-guide.html"> -->
-						<a href="http://summermichiko.github.io/Thinkful-Mentor-Training-Guide" target="_blank">
-							<img src="images/thinkfulFrontFinal.png"/>
-							<div class="nameHolder">
-				            	<h5>Thinkful Mentor Training Guide</h5>
-				            	<p>Javascript, jQuery, HTML5, CSS3</p>
-				            </div>
-						</a>
-					</li>
-					<li class="img-wrap">
-						<!-- <a href="kamaaina-quiz.html"> -->
-						<a href="http://summermichiko.github.io/Hawaii-Quiz-App" target="_blank">
-							<img src="images/kamaainaFrontFinal.png"/>
-							<div class="nameHolder">
-				            	<h5>Kama`aina Quiz</h5>
-				            	<p>Javascript, jQuery, HTML5, CSS3</p>
-				            </div>
-						</a>
-					</li>
-			        <li class="img-wrap">
-			          <!-- <a href="flock.html"> -->
-			          <a href="http://teamflock.herokuapp.com" target="_blank">
-			            <img src="images/flockFrontFinal.png"/>
-			            <div class="nameHolder">
-			            	<h5>Flock</h5>
-			            	<p>Fullstack Javascript Development</p>
-			            </div>
-			          </a>
-			        </li>
-					<li class="img-wrap">
-						<!-- <a href="hot-or-cold-game.html"> -->
-						<a href="http://summermichiko.github.io/Hot-or-Cold-App" target="_blank">
-							<img src="images/hotColdFrontFinal.png"/>
-							<div class="nameHolder">
-				            	<h5>Hot or Cold Game</h5>
-				            	<p>Javascript, jQuery, HTML5, CSS3</p>
-				            </div>
-						</a>
-					</li>
-				</ul>
+		<section id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div clas="col-xs-12">
+						<h2>PORTFOLIO</h2>
+						<hr />
+					</div>
+				</div>
+				<div class="row">
+					<ul class="item">
+						<div class="col-md-4 col-sm-6 col-xs-12 itemLeft">
+							<li class="img-wrap">
+					          <a href="http://www.butterbean.io" target="_blank">
+					         <!--  <a href="butterbean.html"> -->
+					            <img src="images/butterbeanFrontFinal.png"/>
+					            <div class="nameHolder">
+					            	<h5>Butterbean</h5>
+					            	<p>Fullstack Javascript Development</p>
+					            </div>
+					          </a>
+					        </li>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 itemMiddle">
+							<li class="img-wrap">
+								<!-- <a href="shopping-list-app.html" target="_blank"> -->
+								<a href="http://summermichiko.github.io/Shopping-List-App" target="_blank">
+									<img src="images/shoppingListFrontFInal.png"/>
+									<div class="nameHolder">
+						            	<h5>Shopping List</h5>
+						            	<p>Javascript, jQuery, HTML5, CSS3</p>
+						            </div>
+								</a>
+							</li>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 itemRight">
+							<li class="img-wrap">
+								<!-- <a href="thinkful-mentor-training-guide.html"> -->
+								<a href="http://summermichiko.github.io/Thinkful-Mentor-Training-Guide" target="_blank">
+									<img src="images/thinkfulFrontFinal.png"/>
+									<div class="nameHolder">
+						            	<h5>Thinkful Training Guide</h5>
+						            	<p>Javascript, jQuery, HTML5, CSS3</p>
+						            </div>
+								</a>
+							</li>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 itemLeft">
+							<li class="img-wrap">
+								<!-- <a href="kamaaina-quiz.html"> -->
+								<a href="http://summermichiko.github.io/Hawaii-Quiz-App" target="_blank">
+									<img src="images/kamaainaFrontFinal.png"/>
+									<div class="nameHolder">
+						            	<h5>Kama`aina Quiz</h5>
+						            	<p>Javascript, jQuery, HTML5, CSS3</p>
+						            </div>
+								</a>
+							</li>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 itemMiddle">
+							<li class="img-wrap">
+					          <!-- <a href="flock.html"> -->
+					          <a href="http://teamflock.herokuapp.com" target="_blank">
+					            <img src="images/flockFrontFinal.png"/>
+					            <div class="nameHolder">
+					            	<h5>Flock</h5>
+					            	<p>Fullstack Javascript Development</p>
+					            </div>
+					          </a>
+					        </li>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 itemRight">
+							<li class="img-wrap">
+								<!-- <a href="hot-or-cold-game.html"> -->
+								<a href="http://summermichiko.github.io/Hot-or-Cold-App" target="_blank">
+									<img src="images/hotColdFrontFinal.png"/>
+									<div class="nameHolder">
+						            	<h5>Hot or Cold Game</h5>
+						            	<p>Javascript, jQuery, HTML5, CSS3</p>
+						            </div>
+								</a>
+							</li>
+						</div>
+					</ul>
+				</div>
 			</div>
 		</section>
-		<section id="contact">
-			<h2>GET IN TOUCH</h2>
-			<hr />
-			<ul class="contactChoices">
-				<li class="contactEmail">
-					<a href="mailto:hellosummermcdonald@gmail.com?" target="_blank"><img src="images/email.png"></a>
-				</li>
-				<li class="contactLinkedIn">
-					<a href="https://www.linkedin.com/profile/view?id=297787710&trk=nav_responsive_tab_profile_pic" target="_blank"><img src="images/linkedIn.png"></a>
-				</li>
-				<li class="contactFacebook">
-					<a href="https://www.facebook.com/summer.mm.mcdonald" target="_blank"><img src="images/facebook.png"></a>
-				</li>
-				<li class="contactGithub">
-					<a href="https://github.com/summermichiko" target="_blank"><img src="images/github.png"></a>
-				</li>
-			</ul>
-		</section>
+		<div class="container">
+			<section id="contact">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2>GET IN TOUCH</h2>
+						<hr />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<ul class="contactChoices">
+							<li class="contactEmail">
+								<a href="mailto:hellosummermcdonald@gmail.com?" target="_blank"><img src="images/email.png"></a>
+							</li>
+							<li class="contactLinkedIn">
+								<a href="https://www.linkedin.com/profile/view?id=297787710&trk=nav_responsive_tab_profile_pic" target="_blank"><img src="images/linkedIn.png"></a>
+							</li>
+							<li class="contactFacebook">
+								<a href="https://www.facebook.com/summer.mm.mcdonald" target="_blank"><img src="images/facebook.png"></a>
+							</li>
+							<li class="contactGithub">
+								<a href="https://github.com/summermichiko" target="_blank"><img src="images/github.png"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
 		<footer>
-			<p>2014 © SUMMER MCDONALD</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<p>2015 © SUMMER MCDONALD</p>
+					</div>
+				</div>
+			</div>
 		</footer>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type="text/javascript" src="app.js"></script>

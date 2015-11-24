@@ -4,17 +4,17 @@ $(document).ready(function() {
     		event.preventDefault();
         	var anchor = $(this);
         	$('html, body').stop().animate({
-            	scrollTop: $(anchor.attr('href')).offset().top -85
+            	scrollTop: $(anchor.attr('href')).offset().top -55
         	}, 700);
     	});
 	});
 
     $(".menuBar img").on("click", function() {
-        $(".dropDown").toggle();
+        $(".responsiveDropDown").toggle();
     });
 
-    $(".dropDown a").on("click", function() {
-        $(".dropDown").hide();
+    $(".responsiveDropDown a").on("click", function() {
+        $(".responsiveDropDown").hide();
     });
 
     /*if ($(".menuBar").css("display") === "none") { //smallest screen
