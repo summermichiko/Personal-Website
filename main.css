@@ -282,7 +282,7 @@ hr {
 	background-color: #fff;
 	z-index: 1000;
 	padding-top: 10px;
-	margin-top: 145px;
+	margin-top: 105px;
 }
 
 .myStoryContent {
@@ -444,7 +444,7 @@ footer {
 
 footer p {
 	font-weight: 300;
-	padding-top: 23px;
+	padding-top: 20px;
 	font-size: 16px;
 }
 
@@ -513,7 +513,7 @@ media queries
 @media only screen and (max-width : 1199px) {
 	#summer {
 		width: auto;
-		height: 320px;
+		height: 400px;
 	}
 	#topLine {
 		font-size: 35px;
@@ -623,15 +623,15 @@ media queries
 	#topLine {
 		width: 100%;
 		color: #FFF;
-		font-size: 25px;
-		padding-top: 120px;
+		font-size: 27px;
+		padding-top: 175px;
 	}
 
 	#secondLine {
 		padding-top: 0px;
 		width: 100%;
-		color: #FFFFFF;
-		font-size: 14px;
+		color: #FFF;
+		font-size: 18px;
 		margin-top: -10px;
 	}
 
@@ -711,14 +711,6 @@ media queries
 		position: relative;
 		float: none;
 		display: block;
-	}
-
-	.img-wrap a {
-		font-size: 14px;
-		border: 1px solid #FFFFFF;
-		color: #FFFFFF;
-		padding: 12px;
-		font-weight: 300;
 	}
 
 }
