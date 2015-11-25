@@ -81,7 +81,7 @@ body {
 	color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 340px;
+	padding-top: 310px;
 	padding-bottom: 5px;
 	text-align: center;
 	z-index: 100;
@@ -89,7 +89,7 @@ body {
 }
 
 #secondLine {
-	font-size: 25px;
+	font-size: 22px;
 	color: #FFF;
 	text-align: center;
 	margin-right: auto;
@@ -297,7 +297,7 @@ hr {
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 1.8;
-	text-align: center;
+	text-align: justify;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -449,44 +449,63 @@ footer p {
 }
 
 /* shopping list individual view */
-.greyBox {
+.individualViewBody {
 	background-color: #eee;
-	padding: 35px;
-	margin-bottom: 15px;
+}
+
+.whiteBox {
+	background-color: #fff;
+	padding: 35px 35px 40px 35px;
+	margin-bottom: 25px;
 	margin-top: 45px;
-	border-radius: 2px;
 	color: #595959;
 }
 
-.greyBoxHeader {
+.whiteBoxHeader {
 	display: inline-block;
 }
 
-.greyBoxHeader h1 {
+.whiteBoxHeader h1 {
 	margin-top: 0;
+	font-weight: 700;
+	font-size: 30px;
 }
 
-.greyBoxLink img {
-	height: 15px;
-	width: 15px;
-}
-
-.greyBoxLink {
+.whiteBoxLink {
 	display: inline-block;
 	float: right;
 }
 
-.greyBoxLink a {
+.whiteBoxLink a {
 	color: #595959;
+	font-size: 16px;
 }
 
-.greyBoxLink a:hover {
+.whiteBoxLink a:hover {
 	color: #595959;
 	text-decoration: none;
 }
 
+.whiteBoxLink img {
+	height: 13px;
+	width: 13px;
+	margin-right: 5px;
+	margin-top: -3px;
+}
+
+.whiteBoxLink p {
+	display: inline;
+}
+
 .technologiesListed {
-	font-weight: 500;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.generalDescription {
+	font-size: 16px;
+	line-height: 25px;
 }
 
 .desktopRow {
@@ -501,6 +520,11 @@ footer p {
 	width: 100%;
 }
 
+.annotation {
+	font-size: 16px;
+	line-height: 25px;
+}
+
 
 
 
@@ -513,11 +537,11 @@ media queries
 @media only screen and (max-width : 1199px) {
 	#summer {
 		width: auto;
-		height: 400px;
+		height: 500px;
 	}
 	#topLine {
 		font-size: 35px;
-		padding-top: 225px;
+		padding-top: 285px;
 	}
 }
 
@@ -548,6 +572,10 @@ media queries
 		top: 20px;
 	}
 
+	#mystory {
+		margin-top: 0;
+	}
+
 	.myStoryContent {
 		position: relative;
 		display: block;
@@ -570,7 +598,7 @@ media queries
 	}
 	#topLine {
 		font-size: 35px;
-		padding-top: 215px;
+		padding-top: 225px;
 	}
 	.img-wrap {
 		display: block;
@@ -601,6 +629,11 @@ media queries
 		float: none;
 		display: block;
 	}
+
+	/* individual view styles */
+	.desktopImage {
+		margin-bottom: 25px;
+	}
 }
 
 @media only screen and (max-width : 767px) {
@@ -624,7 +657,7 @@ media queries
 		width: 100%;
 		color: #FFF;
 		font-size: 27px;
-		padding-top: 175px;
+		padding-top:225px;
 	}
 
 	#secondLine {
@@ -633,6 +666,10 @@ media queries
 		color: #FFF;
 		font-size: 18px;
 		margin-top: -10px;
+	}
+
+	.bounce {
+		margin-top: 15px;
 	}
 
 	.bounce img {
@@ -678,12 +715,16 @@ media queries
 		width: 100%;
 	}
 
+	#portfolio {
+		padding-bottom: 60px;
+	}
+
 	.img-wrap {
 		display: inline-block;
 		width: 100%;
 		position: relative;
 		overflow: hidden;
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 		transition: all .3s ease-in-out;
 	}
 
@@ -711,6 +752,26 @@ media queries
 		position: relative;
 		float: none;
 		display: block;
+	}
+
+	/* individual views */
+	.desktopImage {
+		margin-bottom: 25px;
+	}
+
+	.topDescription {
+		margin-bottom: 25px;
+	}
+
+	.whiteBoxLink {
+		display: block;
+		float: none;
+		margin-bottom: 10px;
+		margin-top: -8px;
+	}
+
+	.whiteBoxLink a {
+		display: inline-block;
 	}
 
 }
