@@ -643,11 +643,11 @@ media queries
 	}
 
 	header {
-		background: url("images/Query_Img.png");
+		background: url("images/Mobile_Img.png");
 		background-repeat: no-repeat;
 		width: auto;
 		background-size: cover;
-		background-position: center center;
+		background-position: top center;
 		overflow: hidden;
 	}
 
