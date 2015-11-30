@@ -448,7 +448,7 @@ footer p {
 	font-size: 16px;
 }
 
-/* shopping list individual view */
+/* individual views */
 .individualViewBody {
 	background-color: #eee;
 }
@@ -513,7 +513,7 @@ footer p {
 }
 
 .topDescription {
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 }
 
 .desktopImage {
@@ -525,11 +525,9 @@ footer p {
 	line-height: 25px;
 }
 
-
-
-
-
-
+.flockImage1, .flockImage2, .kamaainaImage1 {
+	margin-bottom: 15px;
+}
 
 /* ---------------------------------------------------------------------------------------------
 media queries
@@ -756,10 +754,6 @@ media queries
 
 	/* individual views */
 	.desktopImage {
-		margin-bottom: 25px;
-	}
-
-	.topDescription {
 		margin-bottom: 25px;
 	}
 
