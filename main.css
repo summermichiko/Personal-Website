@@ -570,6 +570,11 @@ media queries
 		top: 20px;
 	}
 
+	.responsiveDropDown {
+		margin-top: 41px;
+		right: 15px;
+	}
+
 	#mystory {
 		margin-top: 0;
 	}
@@ -693,6 +698,17 @@ media queries
 
 	.menuBar li {
 		display: none;
+	}
+
+	.responsiveDropDown {
+		width: 140px;
+		z-index: 10000;
+		display: none;
+		font-size: 16px;
+		box-shadow: 0px 0.5px 1px #888888;
+		margin-top: 61px;
+		position: fixed;
+		right: 0;
 	}
 
 	#mystory {
