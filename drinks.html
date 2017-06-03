@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<title>Designed Illustrations</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" href="main.css" media="screen">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	</head>
+	<body class="individualViewBody">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1 col-xs-12">
+					<div class="whiteBox">
+						<div class="whiteBoxHeader">
+							<h1>Designed Illustrations</h1>
+						</div>
+						<div class="technologiesListed">Sketch3</div>
+						<div class="generalDescription">These are flat illustrations that have been designed from scratch in Sketch3.</div>
+					</div>
+				</div>
+			</div>
+			<div class="row desktopRow">
+				<div class="col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+					<img class="desktopImage" src="images/summerDrinks.jpg">
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<meta id="testViewport" name="viewport" content="width=device-width, maximum-scale=1">
+	<script>
+	    setTimeout(function(){ //gives it time to evaluate width of screen
+	        if (document.documentElement.clientWidth > 480) {
+	            var mvp = document.getElementById('testViewport');
+	            mvp.setAttribute('content','width=1000');
+	        }
+	    }, 200);
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-52980513-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</html>
