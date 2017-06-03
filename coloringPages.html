@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<title>Coloring Pages</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" href="main.css" media="screen">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	</head>
+	<body class="individualViewBody">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1 col-xs-12">
+					<div class="whiteBox">
+						<div class="whiteBoxHeader">
+							<h1>Butterbean</h1>
+						</div>
+						<div class="whiteBoxLink">
+							<a href="http://www.butterbean.io" target="_blank">
+								<img src="images/linkIcon.png">
+								<p>Go to project</p>
+							</a>
+						</div>
+						<div class="technologiesListed">Mongo DB, Express, Angular, Node.js</div>
+						<div class="generalDescription">Butterbean is an online directory that features all of Hawaii's best activities and services. Parents are able to use the interface to quickly search and filter for what they're looking for. Each profile is robust and picture-heavy. This project is still a work in progress. The only complete profile is of Punahou School.</div>
+					</div>
+				</div>
+			</div>
+			<div class="row desktopRow">
+				<div class="col-md-7 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+					<img class="desktopImage" src="images/butterbeanNumbered.png">
+				</div>
+				<div class="col-md-3 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
+					<p class="annotation topDescription">1. For consistency, only clickable items are highlighted in red.</p>
+					<p class="annotation topDescription">2. Because so much information is being displayed visually, the app adheres to a strict hierarchy. Each repeated sub-section has uniform styling. </p>
+					<p class="annotation topDescription">3. Images are organized to maximize image size while not overwhelming the screen.</p>
+					<p class="annotation topDescription">4. Related profiles are displayed at the end of the page to keep users engaged on the site.</p>
+					<p class="annotation">5. This app is fully responsive, designed to look great on all devices.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<meta id="testViewport" name="viewport" content="width=device-width, maximum-scale=1">
+	<script>
+	    setTimeout(function(){ //gives it time to evaluate width of screen
+	        if (document.documentElement.clientWidth > 480) {
+	            var mvp = document.getElementById('testViewport');
+	            mvp.setAttribute('content','width=1000');
+	        }
+	    }, 200);
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-52980513-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</html>
